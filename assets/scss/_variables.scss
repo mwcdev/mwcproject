@@ -1,0 +1,25 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+$enable-rounded: false;
+$primary: #C51D1D;
+$secondary: #2B2D42;
+$success: #20c997;
+$warning: #fd7e14;
+$accent: #FBF5D0;
+$lightblue: #F8F9FD;
+$gray: #CCCCCC;
+$lightgray: #EFF2F4;
+$default: $secondary;
+// $heading-font: 'Titillium Web', sans-serif;
+$heading-font: 'Play', sans-serif;
+$body-font: 'Source Sans Pro', sans-serif;
+$font-weight-regular: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 900;
+$transition-base: all 5s ease-in-out;
+$standard-padding: 100px;
+$standard-padding-semi :60px;

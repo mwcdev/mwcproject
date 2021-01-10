@@ -1,0 +1,112 @@
+.f-base{
+    font-size: $font-size-base;
+}
+
+.f-small{
+    font-size: $font-size-sm;
+}
+
+.f-md{
+    font-size: $h5-font-size;
+}
+
+.text-default{
+    color: $default!important;
+}
+
+.text-accent{
+    color: $accent;
+}
+
+.text-gray{
+    color: $gray!important;
+}
+
+
+.bg-accent{
+    background-color: $accent;
+}
+
+.bg-light-blue{
+    background-color: $lightblue;
+}
+
+.bg-light-gray{
+    background-color: $lightgray;
+}
+
+.bg-gray{
+    background-color: $gray;
+}
+
+.bg-img{
+    background-size: cover!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+}
+
+.btn{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.items-block{
+    margin-bottom: -30px;
+    &>:not(:last-child){
+        margin-bottom: 30px;
+    }
+}
+
+.standard-padding{
+    padding-top: $standard-padding;
+    padding-bottom: $standard-padding;
+}
+
+.standard-padding-top{
+    padding-top: $standard-padding;
+}
+
+.standard-padding-bottom{
+    padding-bottom: $standard-padding;
+}
+
+.standard-padding-semi{
+    padding-top: $standard-padding-semi;
+    padding-bottom: $standard-padding-semi;
+}
+
+.standard-padding-semi-top{
+    padding-top: $standard-padding-semi;
+}
+
+.standard-padding-semi-bottom{
+    padding-bottom: $standard-padding-semi;
+}
+
+
+.content{
+    &>:last-child{
+        margin-bottom: 0rem!important;
+    }
+}
+
+
+@keyframes fadeUp {
+    0% {
+       opacity: 0;
+       transform: translateY(100px);
+    }
+    100% {
+       transform: translateY(0);
+    }
+ }
+
+ @keyframes fadeLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(100px);
+    }
+    100% {
+       transform: translateX(0);
+    }
+ }
