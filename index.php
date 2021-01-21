@@ -71,49 +71,49 @@
 
         <div class="clients-logo">
             <div class="col-md-8 mx-auto">
-                <div class="shadow-sm rounded-lg p-4 bg-white">
+                <div class="shadow-sm rounded-lg py-2 px-4 bg-white">
                     <div class="client-logo">
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/golden-world-logo.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Aspdin_Construction.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/mpi.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Aspdin_Travel-&-Tours.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Diamond.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/DSCL.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/KIDS.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/KSPP.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/KTG.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/main-logo-dark.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/MSCI.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Myanmar-Education-Institute.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Nature-Lovers.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Sister.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/splk-logo.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
                         </div>
                     </div>
                 </div>
@@ -126,8 +126,10 @@
 
             <div class="our-work">
                 <div class="our-work-caption">
-                    <h1>Web Design & Development</h1>
-                    <!-- <span style="font-size: 1.4rem;">UX/UI, Web Design and WordPress</span> -->
+                    <h1 class="mb-3">ဝက်ဘ်ဆိုဒ် ဖန်တီးခြင်း ဝန်ဆောင်မှု</h1>
+                    <p class="mb-0">
+                    Website ဆိုတာ တစ်ကမ္ဘာလုံးဆိုင်ရာ လုပ်ငန်းရှင် ကြီး/ငယ် များစွာ ယုံကြည်အားကိုးရာနေရာလေးတစ်ခုဖြစ်တဲ့ အွန်လိုင်းဆိုင်ခွဲတစ်ခုပါ....
+                    </p>
                 </div>
                 <div class="our-work-thumb" style="background:linear-gradient(60deg, #60B2FF, #14D4D9);">
                     <div class="pic" style="background:url(https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194735/up4-home-card-1024x803.png)"></div>

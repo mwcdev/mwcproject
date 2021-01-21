@@ -1,7 +1,11 @@
-// fonts
+// Eng fonts
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+// Myanmar fonts
+@import url('https://fonts.googleapis.com/earlyaccess/myanmarsanspro.css');
+@import url('https://fonts.googleapis.com/earlyaccess/notosansmyanmar.css');
 
 // $enable-rounded: false;
 $primary: #C51D1D;
@@ -15,8 +19,8 @@ $gray: #CCCCCC;
 $lightgray: #EFF2F4;
 $default: $secondary;
 // $heading-font: 'Titillium Web', sans-serif;
-$heading-font: 'Play', sans-serif;
-$body-font: 'Source Sans Pro', sans-serif;
+$heading-font: 'Play', 'Myanmar Sans Pro', sans-serif;
+$body-font: 'Source Sans Pro', 'Noto Sans Myanmar',  sans-serif;
 $font-weight-regular: 400;
 $font-weight-semi-bold: 600;
 $font-weight-bold: 700;

@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/earlyaccess/myanmarsanspro.css");
+@import url("https://fonts.googleapis.com/earlyaccess/notosansmyanmar.css");
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -9771,14 +9773,18 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+html:lang(mm) p {
+  line-height: 1.8;
+}
+
 body {
   overflow-x: hidden;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", "Noto Sans Myanmar", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, .display-4 {
-  font-family: "Play", sans-serif;
+  font-family: "Play", "Myanmar Sans Pro", sans-serif;
   font-weight: 700;
   color: #C51D1D;
 }
@@ -9950,7 +9956,8 @@ header.mwc-main-header {
 
 /** clients logo **/
 .clients-logo img {
-  height: 60px;
+  max-width: 100px;
+  height: auto;
   margin: auto;
 }
 
@@ -10021,7 +10028,7 @@ header.mwc-main-header {
   line-height: 50px;
   text-align: center;
   font-size: 1.5rem;
-  font-family: "Play", sans-serif;
+  font-family: "Play", "Myanmar Sans Pro", sans-serif;
 }
 
 .mockup-call .img-wrap {
@@ -10151,6 +10158,14 @@ header.mwc-main-header {
   transition: all .25s ease;
 }
 
+.our-work-caption p {
+  max-width: 75%;
+}
+
+.our-work-caption * {
+  color: white;
+}
+
 .our-work-thumb {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -10183,6 +10198,10 @@ header.mwc-main-header {
 .our-work h1 {
   text-transform: uppercase;
   color: white;
+}
+
+.our-work h1, p {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 .works > .container > .our-work:last-child {
@@ -10243,6 +10262,7 @@ header.mwc-main-header {
   }
   .our-work-caption h1 {
     font-size: 2.125rem;
+    white-space: nowrap;
   }
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="mm">
     <head>
         <title><?php echo stripslashes('Home'); ?> - <?php echo SITE_NAME; ?></title>
         <link rel="icon" href="http://thesoftwareguy.in/favicon.ico" type="image/x-icon" />

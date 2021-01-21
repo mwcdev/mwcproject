@@ -2,7 +2,9 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./classes";
 
-
+html:lang(mm) p {
+    line-height: 1.8;
+}
 
 body{
     overflow-x: hidden;
@@ -210,7 +212,8 @@ header.mwc-main-header{
 /** clients logo **/
 .clients-logo {
     img {
-        height: 60px;
+        max-width: 100px;
+        height: auto;
         margin: auto;
     }
     .clients-logo-block{
@@ -421,7 +424,13 @@ header.mwc-main-header{
     transition: all .25s ease;
 }
 
+.our-work-caption p {
+    max-width: 75%;
+}
 
+.our-work-caption * {
+    color: white;
+}
 
 .our-work-thumb {
     -ms-grid-column: 1;
@@ -457,9 +466,15 @@ header.mwc-main-header{
     color: white;
 }
 
+.our-work h1, p{
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+
 .works>.container>.our-work:last-child{
     margin-bottom: 0rem!important;
 }
+
+
 
 @media (min-width: 768px){
 
@@ -526,6 +541,7 @@ header.mwc-main-header{
 
     .our-work-caption h1{
         font-size: 2.125rem;
+        white-space: nowrap;
     }
 
 }
