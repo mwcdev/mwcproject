@@ -75,10 +75,11 @@ $('.client-review').slick();
 // client logo 
 $('.client-logo').slick({
   infinite: true,
+  dots: false,
   speed: 300,
   slidesToShow: 5,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 1500,
   responsive: [
     {

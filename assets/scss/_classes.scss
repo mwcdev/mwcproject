@@ -31,6 +31,10 @@
     background-color: $lightblue;
 }
 
+.bg-light-blue-dark{
+    background-color: $lightbluedark;
+}
+
 .bg-light-gray{
     background-color: $lightgray;
 }
@@ -109,4 +113,10 @@
     100% {
        transform: translateX(0);
     }
+ }
+
+ @media (min-width: 768px){
+     .w-md-50{
+         width: 50%;
+     }
  }

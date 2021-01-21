@@ -1,9 +1,9 @@
 <?php
 
     //define constants
-    define('HTTP_SERVER', 'http://localhost');
+    define('HTTP_SERVER', 'http://localhost:8080');
     define('SITE_NAME', 'Myanmar Web Creator');
-    define('SITE_DIR', '/mwc');
+    define('SITE_DIR', '/mwc-project/mwcproject');
     define('DB_DRIVER', 'mysql');
     define('DB_HOST', 'localhost');
     define('DB_HOST_USERNAME', '');

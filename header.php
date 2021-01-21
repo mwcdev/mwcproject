@@ -81,7 +81,7 @@
                         <a href="http://" class="text-default">09 26346 2227</a>
                     </li>
                     <li class="d-md-inline-block d-none">
-                        <a href="http://" role="button" class="btn btn-outline-primary ml-3">BOOK A CONSULTATION!</a>
+                        <a href="http://" role="button" class="btn btn-outline-primary ml-3">BOOK CONSULTATION!</a>
                     </li>
                     <!-- <li><a class="mwc-search-trigger" href="#mwc-search">Search<span></span></a></li> -->
                     <li><a class="mwc-nav-trigger" href="#mwc-primary-nav">Menu<span></span></a></li>

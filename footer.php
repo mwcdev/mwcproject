@@ -1,7 +1,7 @@
-<section class="container mockup-call standard-padding-semi-top mt-5 position-relative">
+<section class="container mockup-call standard-padding-semi-top mt-5 position-relative d-lg-block d-none">
         <div class="row bg-light-blue shadow-sm">
             <div class="img-wrap">
-                <img src="<?php echo PJ_ASSETS_URI; ?>/img/phone-mockup.png" alt="">
+                <img src="<?php echo PJ_ASSETS_URI; ?>/img/call-mockup.png" alt="">
             </div>
             <div class="col-8 ml-auto">
                 <div class="content py-5">
@@ -14,18 +14,18 @@
 
 <footer class="bg-secondary standard-padding-semi text-gray">
     <div class="container">
-        <div class="footer-heading d-flex align-items-end  border-bottom pb-4 mb-4">
-            <h2 class="text-white">
+        <div class="footer-heading d-md-flex align-items-end  border-bottom pb-4 mb-4">
+            <h2 class="text-white mb-md-0 mb-4">
                 Send us an email,</br>to discuss a new project.
             </h1>
             <a name="" id="" class="btn btn-primary btn-lg ml-auto" href="#" role="button">Contact Us</a>
         </div>
-        <div class="content w-50">
+        <div class="content w-md-50">
             <p>MWC is a web and mobile application development company offering services in website design, development, hosting, marketing, maintenance, and analysis.</p>
         </div>
 
-        <div class="row py-5">
-            <div class="col-3 border-right">
+        <div class="row footer-info py-5">
+            <div class="col-lg-3 col-md-4 border-right">
                 <h4 class="text-white">Services</h4>
                 <ul class="list-unstyled p-0 m-0 content">
                     <li><a href="http://">Branding</a></li>
@@ -35,7 +35,7 @@
                     <li><a href="http://">Logo & Graphic Design</a></li>
                 </ul>
             </div>
-            <div class="col-5">
+            <div class="col-lg-5 col-md-8">
                <div class="content">
                     <p><a href="http://">No.624, Gantgaw Yeik Thar Street,16/4 Quarter, Thingangyun Township,Yangon, Myanmar</a></p>
                     <div class="d-flex align-items-center">
@@ -43,7 +43,7 @@
                         <div><a href="http://">info@myanmarwebcreator.com</a></div>
                     </div>
                </div>
-               <div class="mt-4">
+               <div class="mt-md-4 mt-5">
                     <h4 class="text-white">Our Social</h4>
                     <div class="soicals">
                         <a href="http://"><i class="icofont-facebook"></i></a>
@@ -51,14 +51,14 @@
                     </div>
                </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 d-lg-block d-none">
                 <img src="<?php echo PJ_ASSETS_URI; ?>/img/mwc.png" style="max-width: 250px;" class="d-block mx-auto">
             </div>
         </div>
 
-        <div id="copyright" class="content d-flex border-top pt-3">
-            <a href="http://">Privacy and Policy</a>
-            <a href="/" class="ml-auto" target="_blank">&copy; 2019 - <?php echo date("Y"); ?> Myanmar Web Creator</a></a> 
+        <div id="copyright" class="content d-md-flex border-top pt-3">
+            <a href="http://" class="d-block">Privacy and Policy</a>
+            <a href="/" class="ml-auto d-block" target="_blank">&copy; 2019 - <?php echo date("Y"); ?> Myanmar Web Creator</a></a> 
         </div>
     </div>
 </footer>

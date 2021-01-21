@@ -172,6 +172,14 @@ header.mwc-main-header{
     margin-bottom: -55px;
 }
 
+.clients-logo .slick-dotted.slick-slider{
+    margin-bottom: 0px!important;
+}
+
+.clients-logo ul.slick-dots{
+    display: none!important;
+}
+
 .hero-slider, .client-review{
     .slick-prev, .slick-next{
         z-index: 2;
@@ -290,6 +298,94 @@ header.mwc-main-header{
         bottom: 0;
         left: 5%;
     }
+}
+
+/** featured works **/
+
+.each-f-work * {
+    color: inherit;
+}
+
+@media screen and (max-width: 991px) and (min-width: 540px)  {
+    .each-f-work-content>div:first-child {
+        padding-right: 1rem!important;
+    }
+}
+
+.client-rec {
+    background: rgba(0,0,0,0.3);
+}
+
+.mockup, .mockup-wrapper{
+    position: relative;
+}
+
+.laptop-mockup-frame {
+    position: absolute;
+    top: 5%;
+    width: 75.8%;
+    height: 86.9%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.mobile-mockup.mockup {
+    max-width: 18%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.mobile-mockup-frame {
+    width: 86%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 12%;
+    height: 76%;
+    overflow: hidden;
+    /* border-radius: 4%; */
+}
+
+.mockup-wrapper{
+    width: 120%;
+}
+
+@media (max-width: 1199px){
+    .mockup-wrapper {
+        width: 130%;
+    }
+}
+
+@media (max-width: 767px){
+    .mockup-wrapper {
+        width: 93%;
+        margin: auto;
+    }
+}
+
+.each-f-work {
+    overflow: hidden;
+}
+
+.shape-wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -15%;
+    text-align: right;
+}
+
+.shape-wrap svg {
+    width: auto;
+    height: 100%;
+    margin-right: -15%;
+    fill: rgba(0,0,0,0.2);
 }
 
 /** works **/
@@ -491,6 +587,7 @@ footer{
     }
 }
 
+
 @media (max-width: 767px){
     .display-4 {
         font-size: 40px;
@@ -499,6 +596,9 @@ footer{
         .bg-block:before {
             width: 100%;
         }
+    }
+    .footer-info>div:first-child {
+        border-right: 0px!important;
     }
 }
 

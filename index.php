@@ -69,33 +69,51 @@
 
         </div>
 
-        <div class="row clients-logo">
+        <div class="clients-logo">
             <div class="col-md-8 mx-auto">
                 <div class="shadow-sm rounded-lg p-4 bg-white">
                     <div class="client-logo">
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/1.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/golden-world-logo.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/2.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Aspdin_Construction.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/3.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Aspdin_Travel-&-Tours.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/4.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Diamond.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/5.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/DSCL.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/1.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/KIDS.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/2.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/KSPP.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/3.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/KTG.png">
+                        </div>
+                        <div>
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/main-logo-dark.png">
+                        </div>
+                        <div>
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/MSCI.png">
+                        </div>
+                        <div>
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Myanmar-Education-Institute.png">
+                        </div>
+                        <div>
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Nature-Lovers.png">
+                        </div>
+                        <div>
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/Sister.png">
+                        </div>
+                        <div>
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/splk-logo.png">
                         </div>
                     </div>
                 </div>
@@ -160,124 +178,8 @@
         </div>
     </section>
 
-
-
-    <section class="standard-padding-top d-none">
-        <div class="container">
-            <div class="sub-heading text-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1429 713" width="90" height="45">
-                    <path id="Layer" class="shp0" d="M999.3 0.91C1139.35 0.91 1279.4 0.94 1419.44 1C1422.61 1 1425.77 2.49 1428.93 3.28C1426.82 6.01 1424.4 8.56 1422.63 11.5C1283.74 242.17 1144.89 472.83 1006.09 703.5C1004.31 706.5 1003.09 709.8 1001.68 712.96L572.05 712.96C573.94 709.51 575.7 705.96 577.73 702.63C703.01 494.55 828.29 286.45 953.58 78.34C969 52.66 984.08 26.72 999.3 0.91Z" />
-                    <path id="Layer" class="shp0" d="M427.26 0.91L856.89 0.91C855 4.36 853.25 7.91 851.22 11.24C723.7 223.08 596.18 434.92 468.66 646.75C455.44 668.75 442.66 690.91 429.66 713C289.58 713 149.51 712.97 9.46 712.9C6.31 712.9 3.15 711.42 0 710.63C2.12 707.9 4.54 705.35 6.31 702.41C145.2 471.74 284.04 241.08 422.85 10.41C424.63 7.41 425.8 4.07 427.26 0.91Z" />
-                </svg>
-                <h2><span>We Develop</span> Digital Products</h2>
-            </div>
-        </div>
-        <!-- Swiper -->
-        <div class="swiper-container service-intro">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide first-slide" style="background: #fff;">
-                  <div class="container">
-                      <div class="row align-items-center standard-padding-semi-bottom">
-                        <div class="col-6">
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/service.png" alt="">
-                        </div>
-                        <div class="col-6 d-flex align-items-center">
-                            <div class="content">
-                                <h2 class="display-4">Branding</h2>
-                                <p>Myanmar Web Creator provides creative web design and professional web development services at affordable price. Since we can bring your ideal website to your real life in short time either which is in Myanmar theme or international theme, there is no doubt we got many happy clients.</p>
-                            </div>
-                        </div>
-                      </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide" style="background: #fff;">
-                        <div class="container">
-                          <div class="row align-items-center standard-padding-semi">
-                            <div class="col-6">
-                                <img src="<?php echo PJ_ASSETS_URI; ?>/img/service.png" alt="">
-                            </div>
-                            <div class="col-6 d-flex align-items-center">
-                                <div class="content">
-                                    <h2 class="display-4">Web Design</h2>
-                                    <p>Myanmar Web Creator provides creative web design and professional web development services at affordable price. Since we can bring your ideal website to your real life in short time either which is in Myanmar theme or international theme, there is no doubt we got many happy clients.</p>
-                                </div>
-                            </div>
-                          </div>
-                      </div>
-                </div>
-
-
-                <div class="swiper-slide" style="background:  #fff;">
-                        <div class="container">
-                          <div class="row align-items-center standard-padding-semi">
-                            <div class="col-6">
-                                <img src="<?php echo PJ_ASSETS_URI; ?>/img/service.png" alt="">
-                            </div>
-                            <div class="col-6 d-flex align-items-center">
-                                <div class="content">
-                                    <h2 class="display-4">Digital Marketing</h2>
-                                    <p>Myanmar Web Creator provides creative web design and professional web development services at affordable price. Since we can bring your ideal website to your real life in short time either which is in Myanmar theme or international theme, there is no doubt we got many happy clients.</p>
-                                </div>
-                            </div>
-                          </div>
-                      </div>
-                </div>
-
-                <div class="swiper-slide" style="background:  #fff;">
-                        <div class="container">
-                          <div class="row align-items-center standard-padding">
-                            <div class="col-6">
-                                <img src="<?php echo PJ_ASSETS_URI; ?>/img/service.png" alt="">
-                            </div>
-                            <div class="col-6 d-flex align-items-center">
-                                <div class="content">
-                                    <h2 class="display-4">Graphic Design</h2>
-                                    <p>Myanmar Web Creator provides creative web design and professional web development services at affordable price. Since we can bring your ideal website to your real life in short time either which is in Myanmar theme or international theme, there is no doubt we got many happy clients.</p>
-                                </div>
-                            </div>
-                          </div>
-                      </div>
-                </div>
-
-                <div class="swiper-slide last-slide" style="background:  #fff;">
-                        <div class="container">
-                          <div class="row align-items-center standard-padding">
-                            <div class="col-6">
-                                <img src="<?php echo PJ_ASSETS_URI; ?>/img/service.png" alt="">
-                            </div>
-                            <div class="col-6 d-flex align-items-center">
-                                <div class="content">
-                                    <h2 class="display-4">Application Development</h2>
-                                    <p>Myanmar Web Creator provides creative web design and professional web development services at affordable price. Since we can bring your ideal website to your real life in short time either which is in Myanmar theme or international theme, there is no doubt we got many happy clients.</p>
-                                </div>
-                            </div>
-                          </div>
-                      </div>
-                </div>
-            
-            </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-        </div>
-    </section>
-
-    <!-- <section>
-        <div class="row">
-            <div class="col-md-4 col-6" style="background:linear-gradient(60deg, #60B2FF, #14D4D9);">
-                <img src="https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194731/sideout-home-card-1024x826.png">
-            </div>
-            <div class="col-md-4" style="background:linear-gradient(60deg, #60B2FF, #14D4D9);">
-                <img src="https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194731/sideout-home-card-1024x826.png">
-            </div>
-            <div class="col-md-4" style="background:linear-gradient(60deg, #60B2FF, #14D4D9);">
-                <img src="https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194731/sideout-home-card-1024x826.png">
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Next Block -->
-    <section class="standard-padding projects-showcase position-relative">
+    <!-- featured-works -->
+    <section class="standard-padding featured-works">
         <div class="container">
 
             <div class="sub-heading text-center">
@@ -285,41 +187,141 @@
                     <path id="Layer" class="shp0" d="M999.3 0.91C1139.35 0.91 1279.4 0.94 1419.44 1C1422.61 1 1425.77 2.49 1428.93 3.28C1426.82 6.01 1424.4 8.56 1422.63 11.5C1283.74 242.17 1144.89 472.83 1006.09 703.5C1004.31 706.5 1003.09 709.8 1001.68 712.96L572.05 712.96C573.94 709.51 575.7 705.96 577.73 702.63C703.01 494.55 828.29 286.45 953.58 78.34C969 52.66 984.08 26.72 999.3 0.91Z"></path>
                     <path id="Layer" class="shp0" d="M427.26 0.91L856.89 0.91C855 4.36 853.25 7.91 851.22 11.24C723.7 223.08 596.18 434.92 468.66 646.75C455.44 668.75 442.66 690.91 429.66 713C289.58 713 149.51 712.97 9.46 712.9C6.31 712.9 3.15 711.42 0 710.63C2.12 707.9 4.54 705.35 6.31 702.41C145.2 471.74 284.04 241.08 422.85 10.41C424.63 7.41 425.8 4.07 427.26 0.91Z"></path>
                 </svg>
-                <h2><span>Recently</span> Created Works</h2>
+                <h2><span>Featured</span> Created Works</h2>
             </div>
 
-            <div class="projects">
-                <div class="px-3">
-                    <div class="mockup-wrap">
-                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/mockup-laptop.png">
-                        <div class="screen-frame">
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/eugs.png">
+            <!-- each featured works -->
+            <div class="py-5 text-white each-f-work position-relative mb-4" style="background: rgb(228 193 5);"> 
+                <div class="shape-wrap">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1429 713" width="90" height="45">
+                        <path id="Layer" class="shp0" d="M999.3 0.91C1139.35 0.91 1279.4 0.94 1419.44 1C1422.61 1 1425.77 2.49 1428.93 3.28C1426.82 6.01 1424.4 8.56 1422.63 11.5C1283.74 242.17 1144.89 472.83 1006.09 703.5C1004.31 706.5 1003.09 709.8 1001.68 712.96L572.05 712.96C573.94 709.51 575.7 705.96 577.73 702.63C703.01 494.55 828.29 286.45 953.58 78.34C969 52.66 984.08 26.72 999.3 0.91Z"></path>
+                        <path id="Layer" class="shp0" d="M427.26 0.91L856.89 0.91C855 4.36 853.25 7.91 851.22 11.24C723.7 223.08 596.18 434.92 468.66 646.75C455.44 668.75 442.66 690.91 429.66 713C289.58 713 149.51 712.97 9.46 712.9C6.31 712.9 3.15 711.42 0 710.63C2.12 707.9 4.54 705.35 6.31 702.41C145.2 471.74 284.04 241.08 422.85 10.41C424.63 7.41 425.8 4.07 427.26 0.91Z"></path>
+                    </svg>
+                </div>
+
+                <div class="row no-gutters align-items-center each-f-work-content">
+                    <div class="col-md-6 px-5 mb-md-0 mb-4">
+                        <a href="https://www.goldenworldfashion.com/" target="_blank" class="client-site-name">Golden World Fashion</a>
+                        <h2 class="h3 mb-lg-5 mb-0">Ecommerce Website for</br>Online Wholesale</h2>
+                        <div class="client-rec d-lg-block d-none f-small p-4 rounded">
+                            <div class="content mb-4">
+                                <p>MWC ကိုအများကြီးကျေးဇူးတင်ပါတယ်။ အစစအရာအရာ လိုလေသေးမရှိအောင် ကူညီဆောင်ရွက်ပေးကြတဲ့ MWC Maketing Team မှ ညီမလေးများကြောင့်လည်း များစွာ ကျေနပ်မိပါတယ်။</p>
+                            </div>
+                            <div>
+                                <img src="<?php echo PJ_ASSETS_URI; ?>/img/client1.jpg" alt="" class="rounded-pill mr-2" style="max-width:50px;float:left;">
+                                <div >
+                                    <h6 class="mb-0">Ma Nandar Aung</h6>
+                                    <p class="text-white m-0">Manager</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="content text-center mt-4">
-                        <h4>EU Graduate School</h4>
+                    <div class="col-md-6">
+                        <div class="mockup-wrapper">
+                            <div class="mobile-mockup mockup">
+                                <img src="<?php echo PJ_ASSETS_URI;?>/img/mobile-mockup.png" alt="">
+                                <div class="mobile-mockup-frame">
+                                    <img src="<?php echo PJ_ASSETS_URI;?>/img/golden-world-mobile.jpg">
+                                </div>
+                            </div>
+                            <div class="laptop-mockup mockup">
+                                <img src="<?php echo PJ_ASSETS_URI;?>/img/laptop-mockup.png">
+                                <div class="laptop-mockup-frame">
+                                    <img src="<?php echo PJ_ASSETS_URI;?>/img/golden-world-laptop.jpg">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="px-3">
-                    <div class="mockup-wrap">
-                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/mockup-laptop.png">
-                        <div class="screen-frame">
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/eazy.png">
+            </div>
+
+            <!-- each featured works -->
+            <div class="py-5 text-white each-f-work position-relative mb-4" style="background: linear-gradient(90deg, #e02725 0%, #F64B3C 100%);"> 
+                <div class="shape-wrap">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1429 713" width="90" height="45">
+                        <path id="Layer" class="shp0" d="M999.3 0.91C1139.35 0.91 1279.4 0.94 1419.44 1C1422.61 1 1425.77 2.49 1428.93 3.28C1426.82 6.01 1424.4 8.56 1422.63 11.5C1283.74 242.17 1144.89 472.83 1006.09 703.5C1004.31 706.5 1003.09 709.8 1001.68 712.96L572.05 712.96C573.94 709.51 575.7 705.96 577.73 702.63C703.01 494.55 828.29 286.45 953.58 78.34C969 52.66 984.08 26.72 999.3 0.91Z"></path>
+                        <path id="Layer" class="shp0" d="M427.26 0.91L856.89 0.91C855 4.36 853.25 7.91 851.22 11.24C723.7 223.08 596.18 434.92 468.66 646.75C455.44 668.75 442.66 690.91 429.66 713C289.58 713 149.51 712.97 9.46 712.9C6.31 712.9 3.15 711.42 0 710.63C2.12 707.9 4.54 705.35 6.31 702.41C145.2 471.74 284.04 241.08 422.85 10.41C424.63 7.41 425.8 4.07 427.26 0.91Z"></path>
+                    </svg>
+                </div>
+
+                <div class="row no-gutters align-items-center each-f-work-content">
+                    <div class="col-md-6 px-5 mb-md-0 mb-4">
+                        <a href="https://thermalcoolengineering.com/" target="_blank" class="client-site-name">Thermal Cool Engineering</a>
+                        <h2 class="h3 mb-lg-5 mb-0">Enginnering Website for</br>Air Conditioning Systems</h2>
+                        <div class="client-rec d-lg-block d-none f-small p-4 rounded">
+                            <div class="content mb-4">
+                                <p>MWC ကိုအများကြီးကျေးဇူးတင်ပါတယ်။ အစစအရာအရာ လိုလေသေးမရှိအောင် ကူညီဆောင်ရွက်ပေးကြတဲ့ MWC Maketing Team မှ ညီမလေးများကြောင့်လည်း များစွာ ကျေနပ်မိပါတယ်။</p>
+                            </div>
+                            <div>
+                                <img src="<?php echo PJ_ASSETS_URI; ?>/img/client1.jpg" alt="" class="rounded-pill mr-2" style="max-width:50px;float:left;">
+                                <div >
+                                    <h6 class="mb-0">Ma Nandar Aung</h6>
+                                    <p class="text-white m-0">Manager</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="content text-center mt-4">
-                        <h4>Eazy Box Furniture</h4>
+                    <div class="col-md-6">
+                        <div class="mockup-wrapper">
+                            <div class="mobile-mockup mockup">
+                                <img src="<?php echo PJ_ASSETS_URI;?>/img/mobile-mockup.png" alt="">
+                                <div class="mobile-mockup-frame">
+                                    <img src="<?php echo PJ_ASSETS_URI;?>/img/thermalcooleng-mobile.jpg">
+                                </div>
+                            </div>
+                            <div class="laptop-mockup mockup">
+                                <img src="<?php echo PJ_ASSETS_URI;?>/img/laptop-mockup.png">
+                                <div class="laptop-mockup-frame">
+                                    <img src="<?php echo PJ_ASSETS_URI;?>/img/thermalcooleng-laptop.jpg">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="px-3">
-                    <div class="mockup-wrap">
-                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/mockup-laptop.png">
-                        <div class="screen-frame">
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/thermal.png">
+            </div>
+
+
+                        <!-- each featured works -->
+                        <div class="py-5 text-white each-f-work position-relative mb-4" style="background: #84366f;"> 
+                <div class="shape-wrap">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1429 713" width="90" height="45">
+                        <path id="Layer" class="shp0" d="M999.3 0.91C1139.35 0.91 1279.4 0.94 1419.44 1C1422.61 1 1425.77 2.49 1428.93 3.28C1426.82 6.01 1424.4 8.56 1422.63 11.5C1283.74 242.17 1144.89 472.83 1006.09 703.5C1004.31 706.5 1003.09 709.8 1001.68 712.96L572.05 712.96C573.94 709.51 575.7 705.96 577.73 702.63C703.01 494.55 828.29 286.45 953.58 78.34C969 52.66 984.08 26.72 999.3 0.91Z"></path>
+                        <path id="Layer" class="shp0" d="M427.26 0.91L856.89 0.91C855 4.36 853.25 7.91 851.22 11.24C723.7 223.08 596.18 434.92 468.66 646.75C455.44 668.75 442.66 690.91 429.66 713C289.58 713 149.51 712.97 9.46 712.9C6.31 712.9 3.15 711.42 0 710.63C2.12 707.9 4.54 705.35 6.31 702.41C145.2 471.74 284.04 241.08 422.85 10.41C424.63 7.41 425.8 4.07 427.26 0.91Z"></path>
+                    </svg>
+                </div>
+
+                <div class="row no-gutters align-items-center each-f-work-content">
+                    <div class="col-md-6 px-5 mb-md-0 mb-4">
+                        <a href="https://www.eazyboxfurniture.com/" target="_blank" class="client-site-name">Eazy Box Furniture</a>
+                        <h2 class="h3 mb-lg-5 mb-0">Ecommerce Website for</br>Furniture</h2>
+                        <div class="client-rec d-lg-block d-none f-small p-4 rounded">
+                            <div class="content mb-4">
+                                <p>MWC ကိုအများကြီးကျေးဇူးတင်ပါတယ်။ အစစအရာအရာ လိုလေသေးမရှိအောင် ကူညီဆောင်ရွက်ပေးကြတဲ့ MWC Maketing Team မှ ညီမလေးများကြောင့်လည်း များစွာ ကျေနပ်မိပါတယ်။</p>
+                            </div>
+                            <div>
+                                <img src="<?php echo PJ_ASSETS_URI; ?>/img/client1.jpg" alt="" class="rounded-pill mr-2" style="max-width:50px;float:left;">
+                                <div >
+                                    <h6 class="mb-0">Ma Nandar Aung</h6>
+                                    <p class="text-white m-0">Manager</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="content text-center mt-4">
-                        <h4>Thermal Cool Engineering</h4>
+                    <div class="col-md-6">
+                        <div class="mockup-wrapper">
+                            <div class="mobile-mockup mockup">
+                                <img src="<?php echo PJ_ASSETS_URI;?>/img/mobile-mockup.png" alt="">
+                                <div class="mobile-mockup-frame">
+                                    <img src="<?php echo PJ_ASSETS_URI;?>/img/eazy-mobile.jpg">
+                                </div>
+                            </div>
+                            <div class="laptop-mockup mockup">
+                                <img src="<?php echo PJ_ASSETS_URI;?>/img/laptop-mockup.png">
+                                <div class="laptop-mockup-frame">
+                                    <img src="<?php echo PJ_ASSETS_URI;?>/img/eazy-laptop.jpg">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -328,66 +330,8 @@
     </section>
 
 
-    <section class="bg-accent bg-img standard-padding" style="background-image: url(<?php echo PJ_ASSETS_URI; ?>/img/love-shapes-2.png)">
-        <div class="container">
-            <div class="client-review">
-
-                <div>
-                    <div class="row align-items-center no-gutters">
-                        <div class="col-4">
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/client1.jpg" alt="">
-                        </div>
-                        <div class="col-8 align-items-center">
-                            <div class="content">
-                                <p>MWC မှ Ko Chan Pyae Sone Kyaw ကိုအများကြီးကျေးဇူးတင်ပါတယ်။ အစစအရာအရာ လိုလေသေးမရှိအောင် ကူညီဆောင်ရွက်ပေးကြတဲ့ MWC Maketing Team မှ ညီမလေးများကြောင့်လည်း များစွာ ကျေနပ်မိပါတယ်။</p>
-                                <div class="client-info">
-                                    <strong>Ba Chan - chanchan-longyi.com</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="row align-items-center no-gutters">
-                        <div class="col-4">
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/client2.jpg" alt="">
-                        </div>
-                        <div class="col-8 align-items-center">
-                            <div class="content">
-                                <p>MWC မှ Ko Chan Pyae Sone Kyaw ကိုအများကြီးကျေးဇူးတင်ပါတယ်။ အစစအရာအရာ လိုလေသေးမရှိအောင် ကူညီဆောင်ရွက်ပေးကြတဲ့ MWC Maketing Team မှ ညီမလေးများကြောင့်လည်း များစွာ ကျေနပ်မိပါတယ်။</p>
-                                <div class="client-info">
-                                    <strong>Ba Chan - chanchan-longyi.com</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div>
-                    <div class="row align-items-center no-gutters">
-                        <div class="col-4">
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/client3.jpg" alt="">
-                        </div>
-                        <div class="col-8 align-items-center">
-                            <div class="content">
-                                <p>MWC မှ Ko Chan Pyae Sone Kyaw ကိုအများကြီးကျေးဇူးတင်ပါတယ်။ အစစအရာအရာ လိုလေသေးမရှိအောင် ကူညီဆောင်ရွက်ပေးကြတဲ့ MWC Maketing Team မှ ညီမလေးများကြောင့်လည်း များစွာ ကျေနပ်မိပါတယ်။</p>
-                                <div class="client-info">
-                                    <strong>Ba Chan - chanchan-longyi.com</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-
-    <section class="standard-padding">
+    <!-- reason-to-works -->
+    <section class="standard-padding-bottom reason-to-work">
         <div class="container">
             <div class="sub-heading">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1429 713" width="90" height="45">
@@ -397,37 +341,37 @@
                 <h2><span>Reasons to</span> Work Together</h2>
             </div>
             <div class="row">
-                <div class="col-8">
+                <div class="col-md-4">
+                    <img src="<?php echo PJ_ASSETS_URI; ?>/img/handshake.png">
+                </div>
+                <div class="col-md-8">
                     <div class="content">
                         <p>We don’t just take your order and serve you a web design or mobile app. MWC’s website designers, website developers and mobile app developers take the time to get to know you and your market to create an all-encompassing digital marketing presence. This is how we have become one of the Best Website Design Companies in the Myanmar. Our Digital Marketing Agency is focused on delivering results for our clients. Whatever marketing goals you have – Brand Exposure, Lead Generation, Website Traffic – our team can help you reach your target audience and succeed. MWC’s Digital Marketing Team specializes in Search Engine Optimization, Social Media, Pay-per-click, Influencer Marketing, and more!</p>
                     </div>
                 </div>
-                <div class="col-4">
-                    <img src="<?php echo PJ_ASSETS_URI; ?>/img/handshake.png">
-                </div>
             </div>
-            <div class="row step-wrap items-block">
-                <div class="col-4">
+            <div class="row step-wrap items-block mt-lg-0 mt-5">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">1</div>
                     <div class="content">We're a full service design studio, highly professional by passion.</div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">2</div>
                     <div class="content">We're a full service design studio, highly professional by passion.</div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">3</div>
                     <div class="content">We're a full service design studio, highly professional by passion.</div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">4</div>
                     <div class="content">We're a full service design studio, highly professional by passion.</div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">5</div>
                     <div class="content">We're a full service design studio, highly professional by passion.</div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">6</div>
                     <div class="content">We're a full service design studio, highly professional by passion.</div>
                 </div>
