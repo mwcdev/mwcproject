@@ -149,3 +149,16 @@ $('.projects').slick({
     // instead of a settings object
   ]
 });
+
+// modal large
+
+$(document).ready(function() {
+  $('#modal-booking').apFullscreenModal({
+    openSelector: '#open-modal-booking',
+    closeSelector: '.close-modal-booking, #send-booking, .close-modal'
+  });
+  $('.datepicker').pickadate()
+  $('.timepicker').pickatime()
+});
+
+

@@ -11,14 +11,14 @@
             <div class="d-flex align-items-center">
                 <div class="container py-5">
                     <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-5 col-md-6">
                             <div class="caption mb-md-0 mb-5">
                                 <h1>သင့်အိပ်မက်တွေကို<div class="text-secondary">MWC နှင့်အတူ ဖန်တီးလိုက်ပါ</div></h1>
                                 <p>MWC သည် စီးပွားရေးလုပ်ငန်းများ၊ အဖွဲ့အစည်းများ၊ မီဒီယာများ၊ အနုပညာရှင်များ၊ လွှတ်တော်များ စသည်တို့ကို လုပ်ငန်းကြီးကြီး၊ ငယ်ငယ် ရေရှည်တည်တံ့စွာ အောင်မြင်မှု ဖြစ်ထွန်းနိုင်ဖို့အတွက် အွန်လိုင်းကို အသုံးပြုကာ ဝန်ဆောင်မှုပေးနေတာပါ...</p>
-                                <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Explore More</a>
+                                <a class="btn btn-outline-primary mt-4" href="#" role="button">Explore More</a>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-6">
+                        <div class="col-lg-7 col-md-6">
                             <div class="bg-block">
                                 <img src="<?php echo PJ_ASSETS_URI;?>/img/slide1.png">
                             </div>
@@ -30,34 +30,15 @@
             <div class="d-flex align-items-center">
                 <div class="container py-5">
                     <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-5 col-md-6">
                             <div class="caption mb-md-0 mb-5">
                                 <h1><div class="text-secondary">MWC ၏</div>ဝန်ဆောင်မှုများ</h1>
                                 <p>ဝက်ဘ်ဆိုဒ် ဒီဇိုင်းရေးဆွဲခြင်း၊ ဝက်ဘ်ဆိုဒ် တည်ထောင်ခြင်း၊ ဝက်ဘ်ဆိုဒ် ပြုပြင်ထိန်းသိမ်းခြင်း၊ ဟိုစတင်၊ ဖေ့စ်ဘွတ်ခ် ပြုပြင်ထိန်းသိမ်းခြင်း၊
                                 ဖေ့စ်ဘွတ်ခ်တွင် ကြော်ငြာခြင်း၊ လိုဂို ရေးဆွဲခြင်း၊ အခြား ဂရက်ဖစ်ဒီဇိုင်းများစွာ ရေးဆွဲခြင်းနှင့် အခြား ဝန်ဆောင်မှုများစွာ..</p>
-                                <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Explore More</a>
+                                <a class="btn btn-outline-primary mt-4" href="#" role="button">Explore More</a>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-6">
-                            <div class="bg-block">
-                                <img src="<?php echo PJ_ASSETS_URI;?>/img/slide1.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="d-flex align-items-center">
-                <div class="container py-5">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="caption mb-md-0 mb-5">
-                                <h1 class="display-4">Digital<br><div class="text-secondary">Marketing</div></h1>
-                                <h5 class="text-default">We can develop goverment, cooperate, porfolio and online shopping websites.</h5>
-                                <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Explore More</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-md-6">
+                        <div class="col-lg-7 col-md-6">
                             <div class="bg-block">
                                 <img src="<?php echo PJ_ASSETS_URI;?>/img/slide1.png">
                             </div>
@@ -124,8 +105,10 @@
 
             <div class="our-work our-work-left">
                 <div class="our-work-caption">
-                    <h1>Ecommerce & Software</h1>
-                    <!-- <span style="font-size: 1.4rem;">UX/UI, Web Design and WordPress</span> -->
+                    <h1 class="mb-3">အွန်လိုင်းစျေးကွက် မြှင့်တင်ရေး ဝန်ဆောင်မှု</h1>
+                    <p class="mb-0 d-md-block d-none">
+                    ဖော့စ်ဘွတ်ခ်ပေ့ချ်ကို အကောင်းဆုံးပြုပြင်ထိန်းသိမ်းခြင်းဖြင့် လူအများရဲ့ အာရုံစိုက်မှု ရရှိစေပြီး ဖေ့စ်ဘွတ်စ် ကြော်ငြာကတော့ အွန်လိုင်းစျေးကွက်မှာ အမြန်ဆုံးနဲ့ အထိရောက်ဆုံး တိုးဝင် ဖောက်ထွင်းဖို့ အကောင်းဆုံးနေရာပါ...
+                    </p>
                 </div>
                 <div class="our-work-thumb" style="background:linear-gradient(60deg, #FFC200, #FF7218);">
                     <div class="pic" style="background:url(https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194731/sideout-home-card-1024x826.png)"></div>
@@ -134,8 +117,10 @@
 
             <div class="our-work">
                 <div class="our-work-caption">
-                    <h1>App Development</h1>
-                    <!-- <span style="font-size: 1.4rem;">UX/UI, Web Design and WordPress</span> -->
+                    <h1 class="mb-3">လိုဂိုနှင့် ဂရက်ဖစ်ဒီဇိုင်း ရေးဆွဲခြင်း ဝန်ဆောင်မှု</h1>
+                    <p class="mb-0 d-md-block d-none">
+                    ကိုယ့်လုပ်ငန်းကို ဖောက်သည်တွေနဲ့  ပိုမိုနီးကပ်လာအောင် ပထမဆုံးအနေနဲ့ လုပ်ဆောင်ပေးတာ လိုဂိုနှင့် ဂရက်ဖစ်ဒီဇိုင်းတွေပါ...
+                    </p>
                 </div>
                 <div class="our-work-thumb" style="background:linear-gradient(60deg, #00EAC3, #1F9DD4);">
                     <div class="pic" style="background:url(https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194735/up4-home-card-1024x803.png)"></div>

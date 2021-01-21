@@ -1,3 +1,58 @@
+    <!-- Booking Modal Box -->
+
+    <div style="display: block;">
+        <div id="modal-booking" class="bg-img modal-content h-100">
+            <div class="h-100">
+
+                <div class="row no-gutters align-items-start" style="height: 100vh;">
+                    <div class="col-md-8 h-100 bg-img" style="background:url(<?php echo PJ_ASSETS_URI; ?>/img/welcome.JPG)"></div>
+                    <div class="col-md-4">
+                        <div class="p-5">
+                            <h2 class="mb-3">အခုဘဲ</br>Appointment ရယူလိုက်ပါ။</h2>
+                            <form action="">
+                                <div class="form-group">
+                                   <label>Name</label>
+                                   <input type="text" name="client-name" class="form-control">
+                               </div>
+                               <div class="form-group">
+                                   <label>Company Name</label>
+                                   <input type="text" name="company-name" class="form-control">
+                               </div>
+                               <div class="form-group">
+                                   <label>Email Address</label>
+                                   <input type="email" name="email-address" class="form-control">
+                               </div>
+                               <div class="form-group">
+                                   <label>Phone Number</label>
+                                   <input type="tel" name="phone-number" class="form-control">
+                               </div>
+                               <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label>Date</label>
+                                            <input type="text" name="company-name" class="form-control datepicker">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label>Time</label>
+                                            <input type="text" name="company-name" class="form-control timepicker">
+                                        </div>
+                                    </div>
+                               </div>
+                               <button class="btn btn-primary my-3 mr-3 w-100">Book Now</button>
+                               <small class=" d-block">ရန်ကုန်မြို့တွင်းမှ အပ အခြားေနရာများသို့ လူကိုယ်တိုင်လာေရာက်  ေတွဆုံေပးနိုင်မည်မဟုတ်ဘဲ Zoom မှတဆင့် သာ ေဆွးေနွးေပးသွားမှာဖြစ်ပါတယ်။</small>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
 <section class="container mockup-call standard-padding-semi-top mt-5 position-relative d-lg-block d-none">
         <div class="row bg-light-blue shadow-sm">
             <div class="img-wrap">
@@ -18,7 +73,7 @@
             <h2 class="text-white mb-md-0 mb-4">
                 Send us an email,</br>to discuss a new project.
             </h1>
-            <a name="" id="" class="btn btn-primary btn-lg ml-auto" href="#" role="button">Contact Us</a>
+            <a name="" id="" class="btn btn-outline-light ml-auto" href="#" role="button">Get A Quote</a>
         </div>
         <div class="content w-md-50">
             <p>MWC is a web and mobile application development company offering services in website design, development, hosting, marketing, maintenance, and analysis.</p>
@@ -70,6 +125,10 @@
 <script src="<?php echo PJ_ASSETS_URI; ?>/js/mega-site-navigation-master.js"></script> 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="<?php echo PJ_VENDORS_URI; ?>/slick/slick.min.js"></script>
+<script src="<?php echo PJ_VENDORS_URI; ?>/modal-box/js/ap-fullscreen-modal.min.js"></script>
+<script src="<?php echo PJ_ASSETS_URI; ?>/js/picker.js"></script>
+<script src="<?php echo PJ_ASSETS_URI; ?>/js/picker.date.js"></script>
+<script src="<?php echo PJ_ASSETS_URI; ?>/js/picker.time.js"></script>
 
 <!-- Script -->
 <script src="<?php echo PJ_ASSETS_URI; ?>/js/custom.js"></script>

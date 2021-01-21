@@ -11,9 +11,11 @@
         
         <!-- Swiper -->
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-        <!-- Owl -->
+        <!-- Slick -->
         <link rel="stylesheet" href="<?php echo PJ_VENDORS_URI; ?>/slick/slick-theme.css">
         <link rel="stylesheet" href="<?php echo PJ_VENDORS_URI; ?>/slick/slick.css">
+        <!-- Modal -->
+        <link rel="stylesheet" href="<?php echo PJ_VENDORS_URI; ?>/modal-box/css/ap-fullscreen-modal.css">
         
 
         <!-- stylesheet -->
@@ -21,6 +23,10 @@
         <link href='<?php echo PJ_ASSETS_URI; ?>/css/style.css' rel='stylesheet' type='text/css'>
         <link href='<?php echo PJ_ASSETS_URI; ?>/css/mega-site-navigation-master.css' rel='stylesheet' type='text/css'>
         <link href='<?php echo PJ_ASSETS_URI; ?>/font/icofont.min.css' rel='stylesheet' type='text/css'>
+
+        <link href='<?php echo PJ_ASSETS_URI; ?>/css/default.css' rel='stylesheet' type='text/css'>
+        <link href='<?php echo PJ_ASSETS_URI; ?>/css/default.date.css' rel='stylesheet' type='text/css'>
+        <link href='<?php echo PJ_ASSETS_URI; ?>/css/default.time.css' rel='stylesheet' type='text/css'>
 
     </head>
     <body>
@@ -78,10 +84,11 @@
                 </a>
                 <ul class="mwc-header-buttons d-flex align-items-center ml-auto mb-0">
                     <li class="d-md-inline-block d-none">
+                        <i class="icofont-headphone-alt pr-2"></i>
                         <a href="http://" class="text-default">09 26346 2227</a>
                     </li>
                     <li class="d-md-inline-block d-none">
-                        <a href="http://" role="button" class="btn btn-outline-primary ml-3">BOOK CONSULTATION!</a>
+                        <a role="button" id="open-modal-booking" class="btn btn-primary ml-3" style="text-transform: capitalize;">အခမဲ့ဆွေးနွေးပါ</a>
                     </li>
                     <!-- <li><a class="mwc-search-trigger" href="#mwc-search">Search<span></span></a></li> -->
                     <li><a class="mwc-nav-trigger" href="#mwc-primary-nav">Menu<span></span></a></li>

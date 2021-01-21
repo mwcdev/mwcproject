@@ -28,6 +28,15 @@ body, p{
     color: $default;
 }
 
+.form-control {
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    border-radius: 0px;
+    padding: 22px;
+}
+
+header li a{
+    font-family: $heading-font;
+}
 
 /** general **/
 
@@ -110,7 +119,10 @@ body, p{
 }
 
 
-
+.modal-content {
+    border: 0px;
+    box-shadow: none;
+}
 
 /** nav **/
 
@@ -235,7 +247,6 @@ header.mwc-main-header{
         height: 100%;
     }
 }
-
 
 
 /** project showcase **/
@@ -528,19 +539,19 @@ header.mwc-main-header{
         grid-row-start: 2;
         -ms-grid-row-span: 1;
         grid-row-end: 3;
-        padding: 30px 40px;
+        padding: 0px 40px;
     }
 
 
     .our-work-left .our-work-caption{
-        text-align: right;
+        text-align: left;
         -ms-grid-column: 2;
         grid-column-start: 2;
         -ms-grid-column-span: 2;
         grid-column-end: 4;
     }
 
-    .our-work-left .our-work-caption h1{
+    .our-work-left .our-work-caption{
         margin-left: 16%;
         max-width: none;
     }
@@ -583,6 +594,11 @@ header.mwc-main-header{
     .our-work-caption h1{
         font-size: 32px;
     }
+}
+
+/** contact **/
+div#apfm-container-0 {
+    overflow: hidden;
 }
 
 

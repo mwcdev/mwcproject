@@ -9666,6 +9666,14 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.25rem;
 }
 
+.f-family-heading {
+  font-size: "Play", "Myanmar Sans Pro", sans-serif;
+}
+
+.f-family-body {
+  font-size: "Source Sans Pro", "Noto Sans Myanmar", sans-serif;
+}
+
 .text-default {
   color: #2B2D42 !important;
 }
@@ -9773,6 +9781,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.btn {
+  padding: 12px 35px;
+}
+
 html:lang(mm) p {
   line-height: 1.8;
 }
@@ -9796,6 +9808,16 @@ h1, h2, h3, h4, h5, h6,
 
 body, p {
   color: #2B2D42;
+}
+
+.form-control {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: 0px;
+  padding: 22px;
+}
+
+header li a {
+  font-family: "Play", "Myanmar Sans Pro", sans-serif;
 }
 
 /** general **/
@@ -9864,6 +9886,11 @@ body, p {
 .sub-heading h2 {
   margin: 0px;
   position: relative;
+}
+
+.modal-content {
+  border: 0px;
+  box-shadow: none;
 }
 
 /** nav **/
@@ -10252,16 +10279,16 @@ header.mwc-main-header {
     grid-row-start: 2;
     -ms-grid-row-span: 1;
     grid-row-end: 3;
-    padding: 30px 40px;
+    padding: 0px 40px;
   }
   .our-work-left .our-work-caption {
-    text-align: right;
+    text-align: left;
     -ms-grid-column: 2;
     grid-column-start: 2;
     -ms-grid-column-span: 2;
     grid-column-end: 4;
   }
-  .our-work-left .our-work-caption h1 {
+  .our-work-left .our-work-caption {
     margin-left: 16%;
     max-width: none;
   }
@@ -10293,6 +10320,11 @@ header.mwc-main-header {
   .our-work-caption h1 {
     font-size: 32px;
   }
+}
+
+/** contact **/
+div#apfm-container-0 {
+  overflow: hidden;
 }
 
 /** footer **/

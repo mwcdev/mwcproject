@@ -10,6 +10,14 @@
     font-size: $h5-font-size;
 }
 
+.f-family-heading{
+    font-size: $heading-font;
+}
+
+.f-family-body{
+    font-size: $body-font;
+}
+
 .text-default{
     color: $default!important;
 }
@@ -119,4 +127,8 @@
      .w-md-50{
          width: 50%;
      }
+ }
+
+ .btn{
+     padding: 12px 35px;
  }
