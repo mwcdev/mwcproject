@@ -13,8 +13,8 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-6">
                             <div class="caption mb-md-0 mb-5">
-                                <h1 class="display-4">Branding<br><div class="text-secondary">Service</div></h1>
-                                <h5 class="text-default">We can develop goverment, cooperate, porfolio and online shopping websites.</h5>
+                                <h1>သင့်အိပ်မက်တွေကို<div class="text-secondary">MWC နှင့်အတူ ဖန်တီးလိုက်ပါ</div></h1>
+                                <p>MWC သည် စီးပွားရေးလုပ်ငန်းများ၊ အဖွဲ့အစည်းများ၊ မီဒီယာများ၊ အနုပညာရှင်များ၊ လွှတ်တော်များ စသည်တို့ကို လုပ်ငန်းကြီးကြီး၊ ငယ်ငယ် ရေရှည်တည်တံ့စွာ အောင်မြင်မှု ဖြစ်ထွန်းနိုင်ဖို့အတွက် အွန်လိုင်းကို အသုံးပြုကာ ဝန်ဆောင်မှုပေးနေတာပါ...</p>
                                 <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Explore More</a>
                             </div>
                         </div>
@@ -32,8 +32,9 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-6">
                             <div class="caption mb-md-0 mb-5">
-                                <h1 class="display-4">Website<br><div class="text-secondary">Development</div></h1>
-                                <h5 class="text-default">We can develop goverment, cooperate, porfolio and online shopping websites.</h5>
+                                <h1><div class="text-secondary">MWC ၏</div>ဝန်ဆောင်မှုများ</h1>
+                                <p>ဝက်ဘ်ဆိုဒ် ဒီဇိုင်းရေးဆွဲခြင်း၊ ဝက်ဘ်ဆိုဒ် တည်ထောင်ခြင်း၊ ဝက်ဘ်ဆိုဒ် ပြုပြင်ထိန်းသိမ်းခြင်း၊ ဟိုစတင်၊ ဖေ့စ်ဘွတ်ခ် ပြုပြင်ထိန်းသိမ်းခြင်း၊
+                                ဖေ့စ်ဘွတ်ခ်တွင် ကြော်ငြာခြင်း၊ လိုဂို ရေးဆွဲခြင်း၊ အခြား ဂရက်ဖစ်ဒီဇိုင်းများစွာ ရေးဆွဲခြင်းနှင့် အခြား ဝန်ဆောင်မှုများစွာ..</p>
                                 <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Explore More</a>
                             </div>
                         </div>
@@ -74,46 +75,31 @@
                 <div class="shadow-sm rounded-lg py-2 px-4 bg-white">
                     <div class="client-logo">
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/nature-love-myanmar.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/mpi.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/mpi.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/dscl.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/kspp.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/ktg.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/mei.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/sarpay.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/sister.png">
                         </div>
                         <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
-                        </div>
-                        <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
-                        </div>
-                        <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
-                        </div>
-                        <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
-                        </div>
-                        <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
-                        </div>
-                        <div>
-                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/nature-love-myanmar.png">
+                            <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/well.png">
                         </div>
                     </div>
                 </div>
@@ -127,7 +113,7 @@
             <div class="our-work">
                 <div class="our-work-caption">
                     <h1 class="mb-3">ဝက်ဘ်ဆိုဒ် ဖန်တီးခြင်း ဝန်ဆောင်မှု</h1>
-                    <p class="mb-0">
+                    <p class="mb-0 d-md-block d-none">
                     Website ဆိုတာ တစ်ကမ္ဘာလုံးဆိုင်ရာ လုပ်ငန်းရှင် ကြီး/ငယ် များစွာ ယုံကြည်အားကိုးရာနေရာလေးတစ်ခုဖြစ်တဲ့ အွန်လိုင်းဆိုင်ခွဲတစ်ခုပါ....
                     </p>
                 </div>

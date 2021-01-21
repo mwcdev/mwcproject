@@ -79,7 +79,7 @@ $('.client-logo').slick({
   speed: 300,
   slidesToShow: 5,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 1500,
   responsive: [
     {
@@ -118,7 +118,7 @@ $('.projects').slick({
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 1500,
   responsive: [
     {

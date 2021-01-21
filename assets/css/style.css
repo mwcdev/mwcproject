@@ -9782,6 +9782,11 @@ body {
   font-family: "Source Sans Pro", "Noto Sans Myanmar", sans-serif;
 }
 
+html:lang(mm) h1, html:lang(mm) h2, html:lang(mm) h3, html:lang(mm) h4, html:lang(mm) h5,
+html:lang(mm) .h1, html:lang(mm) .h2, html:lang(mm) .h3, html:lang(mm) .h4, html:lang(mm) .h5, html:lang(mm) .h6 {
+  line-height: 1.5;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, .display-4 {
   font-family: "Play", "Myanmar Sans Pro", sans-serif;
