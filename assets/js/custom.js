@@ -157,8 +157,8 @@ $(document).ready(function() {
     openSelector: '#open-modal-booking',
     closeSelector: '.close-modal-booking, #send-booking, .close-modal'
   });
-  $('.datepicker').pickadate()
-  $('.timepicker').pickatime()
+  $('.datepicker').pickadate();
+  $('.timepicker').pickatime();
 });
 
 

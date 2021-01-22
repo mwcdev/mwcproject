@@ -5,7 +5,7 @@
 
 <main class="mwc-main-content">
         
-    <section class="bg-light-blue">
+    <section class="bg-light-blue hero-slider-section">
         <div class="hero-slider bg-img pb-5" style="background-image: url(<?php echo PJ_ASSETS_URI; ?>/img/shapes.png)">
 
             <div class="d-flex align-items-center">
@@ -323,30 +323,30 @@
                     </div>
                 </div>
             </div>
-            <div class="row step-wrap items-block mt-lg-0 mt-5">
+            <div class="row step-wrap items-block mt-lg-4 mt-5">
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">1</div>
-                    <div class="content">We're a full service design studio, highly professional by passion.</div>
+                    <div class="content">အတွေ့အကြုံရှိသော ဝန်ထမ်းများစွာမှ ဝန်ဆောင်မှုပေးခြင်း</div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">2</div>
-                    <div class="content">We're a full service design studio, highly professional by passion.</div>
+                    <div class="content">ဆန်းသစ်သော အိုင်ဒီယာများစွာ ဖန်တီးပေးခြင်း</div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">3</div>
-                    <div class="content">We're a full service design studio, highly professional by passion.</div>
+                    <div class="content">အရည်အသွေးပြည့်ဝသော ရလဒ်ကောင်းများစွာ ရရှိစေခြင်း</div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">4</div>
-                    <div class="content">We're a full service design studio, highly professional by passion.</div>
+                    <div class="content">သင့်တင့်မျှတသော စျေးနှုန်းများဖြင့် ပြုလုပ်ပေးခြင်း</div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">5</div>
-                    <div class="content">We're a full service design studio, highly professional by passion.</div>
+                    <div class="content">Customer စိတ်တိုင်းကျ ဆောင်ရွက်ပေးခြင်း</div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">6</div>
-                    <div class="content">We're a full service design studio, highly professional by passion.</div>
+                    <div class="content">သေသပ် ကျန တိကျ မြန်ဆန်မှု ရှိခြင်း</div>
                 </div>
             </div>
         </div>

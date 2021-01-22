@@ -147,6 +147,12 @@ header.mwc-main-header{
     right: 0;
 }
 
+.hero-slider-section{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1IDUiPjxwYXRoIGZpbGw9IiNjNmM2YzYiIGQ9Ik0yIDBoMXYxSDJ6Ii8+PC9zdmc+);
+    background-position: 50%;
+    background-size: 5px 5px;
+}
+
 .hero-slider{
     // background-color: $lightblue;
     overflow: hidden;
@@ -483,7 +489,7 @@ header.mwc-main-header{
     color: white;
 }
 
-.our-work h1, p{
+.our-work h1, .hero-slider  p{
     text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
 }
 
