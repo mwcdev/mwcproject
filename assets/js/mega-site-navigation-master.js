@@ -13,6 +13,7 @@ jQuery(document).ready(function($){
 		if( $('.mwc-main-content').hasClass('nav-is-visible') ) {
 			closeNav();
 			$('.mwc-overlay').removeClass('is-visible');
+			$('body').removeClass('overlay-is-visible');
 		} else {
 			$(this).addClass('nav-is-visible');
 			$('.mwc-primary-nav').addClass('nav-is-visible');
@@ -22,6 +23,7 @@ jQuery(document).ready(function($){
 			});
 			toggleSearch('close');
 			$('.mwc-overlay').addClass('is-visible');
+			$('body').addClass('overlay-is-visible');
 		}
 	});
 
@@ -65,9 +67,11 @@ jQuery(document).ready(function($){
 			selected.addClass('selected').next('ul').removeClass('is-hidden').end().parent('.has-children').parent('ul').addClass('moves-out');
 			selected.parent('.has-children').siblings('.has-children').children('ul').addClass('is-hidden').end().children('a').removeClass('selected');
 			$('.mwc-overlay').addClass('is-visible');
+			$('body').addClass('overlay-is-visible');
 		} else {
 			selected.removeClass('selected').next('ul').addClass('is-hidden').end().parent('.has-children').parent('ul').removeClass('moves-out');
 			$('.mwc-overlay').removeClass('is-visible');
+			$('body').removeClass('overlay-is-visible');
 		}
 		toggleSearch('close');
 	});

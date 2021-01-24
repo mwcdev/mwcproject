@@ -1,47 +1,45 @@
+
+
+<div class="mwc-overlay"></div>
+</main>
+
+    
+    
     <!-- Booking Modal Box -->
 
     <div style="display: block;">
         <div id="modal-booking" class="bg-img modal-content h-100">
             <div class="h-100">
 
-                <div class="row no-gutters align-items-start" style="height: 100vh;">
-                    <div class="col-md-8 h-100 bg-img" style="background:url(<?php echo PJ_ASSETS_URI; ?>/img/welcome.JPG)"></div>
-                    <div class="col-md-4">
+                <div class="row no-gutters align-items-start modal-booking-row">
+                    <div class="col-lg-7 col-md-6 h-100 bg-img" style="background:url(<?php echo PJ_ASSETS_URI; ?>/img/welcome.JPG)"></div>
+                    <div class="col-lg-5 col-md-6" style="max-height: 100vh;overflow-y: scroll;">
                         <div class="p-5">
-                            <h2 class="mb-3">အခုဘဲ</br>Appointment ရယူလိုက်ပါ။</h2>
-                            <form action="">
+                            <h2 class="mb-3">အခုဘဲ</br>ဆက်သွယ်လိုက်ပါ။</h2>
+                            <form action="mail.php" method="post">
                                 <div class="form-group">
-                                   <label>Name</label>
-                                   <input type="text" name="client-name" class="form-control">
+                                   <label>Name*</label>
+                                   <input type="text" name="name" class="form-control">
                                </div>
                                <div class="form-group">
-                                   <label>Company Name</label>
-                                   <input type="text" name="company-name" class="form-control">
+                                   <label>Company</label>
+                                   <input type="text" name="company" class="form-control">
                                </div>
                                <div class="form-group">
-                                   <label>Email Address</label>
-                                   <input type="email" name="email-address" class="form-control">
+                                   <label>Phone number*</label>
+                                   <input type="tel" name="phone" class="form-control">
                                </div>
                                <div class="form-group">
-                                   <label>Phone Number</label>
-                                   <input type="tel" name="phone-number" class="form-control">
+                                    <label>Email</label>
+                                   <input type="text" name="email" class="form-control">
                                </div>
-                               <div class="row">
-                                    <div class="col-6">
-                                        <div class="form-group">
-                                            <label>Date</label>
-                                            <input type="text" name="company-name" class="form-control datepicker">
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="form-group">
-                                            <label>Time</label>
-                                            <input type="text" name="company-name" class="form-control timepicker">
-                                        </div>
-                                    </div>
+                               <div class="form-group">
+                                    <label>Details of your request</label>
+                                   <textarea name="request" id="" cols="30" rows="5" class="form-control" ></textarea>
                                </div>
-                               <button class="btn btn-primary my-3 mr-3 w-100">Book Now</button>
-                               <small class=" d-block">ရန်ကုန်မြို့တွင်းမှ အပ အခြားေနရာများသို့ လူကိုယ်တိုင်လာေရာက်  ေတွဆုံေပးနိုင်မည်မဟုတ်ဘဲ Zoom မှတဆင့် သာ ေဆွးေနွးေပးသွားမှာဖြစ်ပါတယ်။</small>
+
+                               <button class="btn btn-primary my-3 mr-3 w-100">Get In Touch</button>
+                               
                             </form>
                         </div>
                     </div>
@@ -53,8 +51,9 @@
     </div>
 
 
-<section class="container mockup-call standard-padding-semi-top mt-5 position-relative d-lg-block d-none">
-        <div class="row bg-light-blue shadow-sm">
+<section class="bg-light-blue shadow-sm mockup-call d-none" style="margin-top: 6rem;">
+    <div class="container position-relative">
+        <div class="row">
             <div class="img-wrap">
                 <img src="<?php echo PJ_ASSETS_URI; ?>/img/call-mockup.png" alt="">
             </div>
@@ -65,6 +64,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 <footer class="bg-secondary standard-padding-semi text-gray">
@@ -83,19 +83,22 @@
             <div class="col-lg-3 col-md-4 border-right">
                 <h4 class="text-white">Services</h4>
                 <ul class="list-unstyled p-0 m-0 content">
-                    <li><a href="http://">Branding</a></li>
-                    <li><a href="http://">Web Design & Development</a></li>
-                    <li><a href="http://">Digital Marketing</a></li>
-                    <li><a href="http://">Application Development</a></li>
-                    <li><a href="http://">Logo & Graphic Design</a></li>
+                    <li><a href="branding.php">Branding</a></li>
+                    <li><a href="webdesign.php">Web Design & Development</a></li>
+                    <li><a href="digital.php">Digital Marketing</a></li>
+                    <li><a href="app.php">Application Development</a></li>
                 </ul>
             </div>
             <div class="col-lg-5 col-md-8">
                <div class="content">
-                    <p><a href="http://">No.624, Gantgaw Yeik Thar Street,16/4 Quarter, Thingangyun Township,Yangon, Myanmar</a></p>
-                    <div class="d-flex align-items-center">
-                        <div class="border-right pr-2 mr-2"><a href="http://">+959 758 082007</a></div>
-                        <div><a href="http://">info@myanmarwebcreator.com</a></div>
+                    <p><a href="https://goo.gl/maps/8M1j515hfTpPamqQA" target="_blank">No.624, Gantgaw Yeik Thar Street,16/4 Quarter, Thingangyun Township,Yangon, Myanmar</a></p>
+                    <div class="d-md-flex align-items-center">
+                        <div class="border-right pr-2 mr-2">
+                            <a href="tel:+959263462227" target="_blank" >09-2634-62227</a>
+                        </div>
+                        <div>
+                            <a href="mailto:info@myanmarwebcreator.com" target="_blank">info@myanmarwebcreator.com</a>
+                        </div>
                     </div>
                </div>
                <div class="mt-md-4 mt-5">

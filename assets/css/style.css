@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/earlyaccess/myanmarsanspro.css");
 @import url("https://fonts.googleapis.com/earlyaccess/notosansmyanmar.css");
 /*!
@@ -9666,12 +9667,16 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.25rem;
 }
 
+.i-lg {
+  font-size: 3rem;
+}
+
 .f-family-heading {
   font-size: "Play", "Myanmar Sans Pro", sans-serif;
 }
 
 .f-family-body {
-  font-size: "Source Sans Pro", "Noto Sans Myanmar", sans-serif;
+  font-size: "Noto Sans", "Noto Sans Myanmar", sans-serif;
 }
 
 .text-default {
@@ -9679,7 +9684,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-accent {
-  color: #FBF5D0;
+  color: #f3e0c7;
 }
 
 .text-gray {
@@ -9687,7 +9692,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-accent {
-  background-color: #FBF5D0;
+  background-color: #f3e0c7;
 }
 
 .bg-light-blue {
@@ -9785,13 +9790,118 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 12px 35px;
 }
 
+.items-margin-bottom {
+  margin-bottom: -30px;
+}
+
+.items-margin-bottom > * {
+  margin-bottom: 30px;
+}
+
+.img-fix {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.loader {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: max-content;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 250%;
+  background: linear-gradient(180deg, #C51D1D 0, #C51D1D 100%);
+  box-shadow: inset 0 5px 20px #da5757;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.loader:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.preloader span {
+  float: left;
+  height: 100px;
+  line-height: 120px;
+  width: 50px;
+}
+
+.loader > span {
+  border-left: 1px solid #C51D1D;
+  border-right: 1px solid #da5757;
+}
+
+.covers {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.covers span {
+  background: linear-gradient(180deg, white 0, #ddd 100%);
+  animation: up 2s infinite;
+}
+
+@keyframes up {
+  0% {
+    margin-bottom: 0;
+  }
+  16% {
+    margin-bottom: 100%;
+    height: 20px;
+  }
+  50% {
+    margin-bottom: 0;
+  }
+  100% {
+    margin-bottom: 0;
+  }
+}
+
+.covers span:nth-child(2) {
+  animation-delay: .142857s;
+}
+
+.covers span:nth-child(3) {
+  animation-delay: .285714s;
+}
+
+.preloader {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(#e6e6e6, #fff);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999999999;
+}
+
 html:lang(mm) p {
-  line-height: 1.8;
+  line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 13px;
+  }
 }
 
 body {
   overflow-x: hidden;
-  font-family: "Source Sans Pro", "Noto Sans Myanmar", sans-serif;
+  font-family: "Noto Sans", "Noto Sans Myanmar", sans-serif;
 }
 
 html:lang(mm) h1, html:lang(mm) h2, html:lang(mm) h3, html:lang(mm) h4, html:lang(mm) h5,
@@ -9878,7 +9988,7 @@ header li a {
 
 .sub-heading svg {
   position: absolute;
-  fill: #FBF5D0;
+  fill: #f3e0c7;
   top: 0;
   bottom: 0;
 }
@@ -9893,6 +10003,12 @@ header li a {
   box-shadow: none;
 }
 
+@media (min-width: 768px) {
+  .modal-booking-row {
+    height: 100vh;
+  }
+}
+
 /** nav **/
 .mwc-overlay {
   background-color: #C51D1D;
@@ -9904,6 +10020,10 @@ header li a {
   font-weight: bold;
 }
 
+.overlay-is-visible ul#mwc-primary-nav > li > a, .overlay-is-visible .mwc-header-buttons a, .overlay-is-visible .mwc-header-buttons i {
+  color: white !important;
+}
+
 /** banner **/
 header.mwc-main-header {
   width: 100%;
@@ -9912,7 +10032,7 @@ header.mwc-main-header {
   right: 0;
 }
 
-.hero-slider-section {
+.banner-section {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1IDUiPjxwYXRoIGZpbGw9IiNjNmM2YzYiIGQ9Ik0yIDBoMXYxSDJ6Ii8+PC9zdmc+);
   background-position: 50%;
   background-size: 5px 5px;
@@ -9942,7 +10062,7 @@ header.mwc-main-header {
   height: 100%;
   position: absolute;
   display: block;
-  background: #FBF5D0;
+  background: #f3e0c7;
   z-index: -1;
   left: 0;
   right: 0;
@@ -10141,6 +10261,9 @@ header.mwc-main-header {
     width: 93%;
     margin: auto;
   }
+  footer .border-right {
+    border: 0px !important;
+  }
 }
 
 .each-f-work {
@@ -10298,6 +10421,9 @@ header.mwc-main-header {
     margin-left: 16%;
     max-width: none;
   }
+}
+
+@media (min-width: 1300px) {
   .our-work-caption h1 {
     font-size: 2.125rem;
     white-space: nowrap;
@@ -10328,6 +10454,12 @@ header.mwc-main-header {
   }
 }
 
+@media (max-width: 768px) {
+  .our-work-caption h1 {
+    font-size: 2rem;
+  }
+}
+
 /** contact **/
 div#apfm-container-0 {
   overflow: hidden;
@@ -10345,7 +10477,7 @@ footer .soicals a {
 }
 
 footer .soicals i {
-  color: #FBF5D0;
+  color: #f3e0c7;
 }
 
 @media (max-width: 991.9px) {

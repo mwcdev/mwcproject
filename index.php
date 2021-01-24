@@ -1,12 +1,13 @@
 <?php 
     require_once("libs/config.php");
+
+
+    $pageData->title = "ပင်မစာမျက်နှာ";
     include("header.php");
 ?>
-
-<main class="mwc-main-content">
         
-    <section class="bg-light-blue hero-slider-section">
-        <div class="hero-slider bg-img pb-5" style="background-image: url(<?php echo PJ_ASSETS_URI; ?>/img/shapes.png)">
+    <section class="bg-light-blue banner-section hero-slider-section">
+        <div class="hero-slider bg-img pb-md-5" style="background-image: url(<?php echo PJ_ASSETS_URI; ?>/img/shapes.png)">
 
             <div class="d-flex align-items-center">
                 <div class="container py-5">
@@ -15,12 +16,12 @@
                             <div class="caption mb-md-0 mb-5">
                                 <h1>သင့်အိပ်မက်တွေကို<div class="text-secondary">MWC နှင့်အတူ ဖန်တီးလိုက်ပါ</div></h1>
                                 <p>MWC သည် စီးပွားရေးလုပ်ငန်းများ၊ အဖွဲ့အစည်းများ၊ မီဒီယာများ၊ အနုပညာရှင်များ၊ လွှတ်တော်များ စသည်တို့ကို လုပ်ငန်းကြီးကြီး၊ ငယ်ငယ် ရေရှည်တည်တံ့စွာ အောင်မြင်မှု ဖြစ်ထွန်းနိုင်ဖို့အတွက် အွန်လိုင်းကို အသုံးပြုကာ ဝန်ဆောင်မှုပေးနေတာပါ...</p>
-                                <a class="btn btn-outline-primary mt-4" href="#" role="button">Explore More</a>
+                                <a class="btn btn-outline-primary mt-4" href="about.php" role="button">About MWC</a>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-6">
                             <div class="bg-block">
-                                <img src="<?php echo PJ_ASSETS_URI;?>/img/slide1.png">
+                                <img src="<?php echo PJ_ASSETS_URI;?>/img/work-together.png">
                             </div>
                         </div>
                     </div>
@@ -35,12 +36,12 @@
                                 <h1><div class="text-secondary">MWC ၏</div>ဝန်ဆောင်မှုများ</h1>
                                 <p>ဝက်ဘ်ဆိုဒ် ဒီဇိုင်းရေးဆွဲခြင်း၊ ဝက်ဘ်ဆိုဒ် တည်ထောင်ခြင်း၊ ဝက်ဘ်ဆိုဒ် ပြုပြင်ထိန်းသိမ်းခြင်း၊ ဟိုစတင်၊ ဖေ့စ်ဘွတ်ခ် ပြုပြင်ထိန်းသိမ်းခြင်း၊
                                 ဖေ့စ်ဘွတ်ခ်တွင် ကြော်ငြာခြင်း၊ လိုဂို ရေးဆွဲခြင်း၊ အခြား ဂရက်ဖစ်ဒီဇိုင်းများစွာ ရေးဆွဲခြင်းနှင့် အခြား ဝန်ဆောင်မှုများစွာ..</p>
-                                <a class="btn btn-outline-primary mt-4" href="#" role="button">Explore More</a>
+                                <a class="btn btn-outline-primary mt-4" href="" role="button">Explore More</a>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-6">
                             <div class="bg-block">
-                                <img src="<?php echo PJ_ASSETS_URI;?>/img/slide1.png">
+                                <img src="<?php echo PJ_ASSETS_URI;?>/img/work-together.png">
                             </div>
                         </div>
                     </div>
@@ -89,64 +90,43 @@
     </section>
 
     <section class="standard-padding works bg-secondary">
-        <div class="container">
+        <div class="container mt-4">
 
             <div class="our-work">
                 <div class="our-work-caption">
                     <h1 class="mb-3">ဝက်ဘ်ဆိုဒ် ဖန်တီးခြင်း ဝန်ဆောင်မှု</h1>
-                    <p class="mb-0 d-md-block d-none">
+                    <p class="mb-0 d-xl-block d-none">
                     Website ဆိုတာ တစ်ကမ္ဘာလုံးဆိုင်ရာ လုပ်ငန်းရှင် ကြီး/ငယ် များစွာ ယုံကြည်အားကိုးရာနေရာလေးတစ်ခုဖြစ်တဲ့ အွန်လိုင်းဆိုင်ခွဲတစ်ခုပါ....
                     </p>
                 </div>
                 <div class="our-work-thumb" style="background:linear-gradient(60deg, #60B2FF, #14D4D9);">
-                    <div class="pic" style="background:url(https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194735/up4-home-card-1024x803.png)"></div>
+                    <div class="pic" style="background:url(<?php echo PJ_ASSETS_URI; ?>/img/webdevelopment.png)"></div>
                 </div>
             </div>
 
             <div class="our-work our-work-left">
                 <div class="our-work-caption">
                     <h1 class="mb-3">အွန်လိုင်းစျေးကွက် မြှင့်တင်ရေး ဝန်ဆောင်မှု</h1>
-                    <p class="mb-0 d-md-block d-none">
+                    <p class="mb-0 d-xl-block d-none">
                     ဖော့စ်ဘွတ်ခ်ပေ့ချ်ကို အကောင်းဆုံးပြုပြင်ထိန်းသိမ်းခြင်းဖြင့် လူအများရဲ့ အာရုံစိုက်မှု ရရှိစေပြီး ဖေ့စ်ဘွတ်စ် ကြော်ငြာကတော့ အွန်လိုင်းစျေးကွက်မှာ အမြန်ဆုံးနဲ့ အထိရောက်ဆုံး တိုးဝင် ဖောက်ထွင်းဖို့ အကောင်းဆုံးနေရာပါ...
                     </p>
                 </div>
                 <div class="our-work-thumb" style="background:linear-gradient(60deg, #FFC200, #FF7218);">
-                    <div class="pic" style="background:url(https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194731/sideout-home-card-1024x826.png)"></div>
+                    <div class="pic" style="background:url(<?php echo PJ_ASSETS_URI; ?>/img/digital-2.png);"></div>
                 </div>
             </div>
 
             <div class="our-work">
                 <div class="our-work-caption">
                     <h1 class="mb-3">လိုဂိုနှင့် ဂရက်ဖစ်ဒီဇိုင်း ရေးဆွဲခြင်း ဝန်ဆောင်မှု</h1>
-                    <p class="mb-0 d-md-block d-none">
+                    <p class="mb-0 d-xl-block d-none">
                     ကိုယ့်လုပ်ငန်းကို ဖောက်သည်တွေနဲ့  ပိုမိုနီးကပ်လာအောင် ပထမဆုံးအနေနဲ့ လုပ်ဆောင်ပေးတာ လိုဂိုနှင့် ဂရက်ဖစ်ဒီဇိုင်းတွေပါ...
                     </p>
                 </div>
                 <div class="our-work-thumb" style="background:linear-gradient(60deg, #00EAC3, #1F9DD4);">
-                    <div class="pic" style="background:url(https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194735/up4-home-card-1024x803.png)"></div>
+                    <div class="pic" style="background:url(<?php echo PJ_ASSETS_URI; ?>/img/graphic.png)"></div>
                 </div>
             </div>
-
-            <div class="our-work our-work-left">
-                <div class="our-work-caption">
-                    <h1>Digital Marketing</h1>
-                    <!-- <span style="font-size: 1.4rem;">UX/UI, Web Design and WordPress</span> -->
-                </div>
-                <div class="our-work-thumb" style="background:linear-gradient(60deg, #60B2FF, #14D4D9);">
-                    <div class="pic" style="background:url(https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194731/sideout-home-card-1024x826.png)"></div>
-                </div>
-            </div>
-
-            <div class="our-work">
-                <div class="our-work-caption">
-                    <h1>Graphic & Videos</h1>
-                    <!-- <span style="font-size: 1.4rem;">UX/UI, Web Design and WordPress</span> -->
-                </div>
-                <div class="our-work-thumb" style="background:linear-gradient(60deg, #60B2FF, #14D4D9);">
-                    <div class="pic" style="background:url(https://cdn.gulosolutions.com/wp-content/uploads/2019/08/21194735/up4-home-card-1024x803.png)"></div>
-                </div>
-            </div>
-
 
         </div>
     </section>
@@ -306,54 +286,52 @@
     <!-- reason-to-works -->
     <section class="standard-padding-bottom reason-to-work">
         <div class="container">
-            <div class="sub-heading">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1429 713" width="90" height="45">
-                    <path id="Layer" class="shp0" d="M999.3 0.91C1139.35 0.91 1279.4 0.94 1419.44 1C1422.61 1 1425.77 2.49 1428.93 3.28C1426.82 6.01 1424.4 8.56 1422.63 11.5C1283.74 242.17 1144.89 472.83 1006.09 703.5C1004.31 706.5 1003.09 709.8 1001.68 712.96L572.05 712.96C573.94 709.51 575.7 705.96 577.73 702.63C703.01 494.55 828.29 286.45 953.58 78.34C969 52.66 984.08 26.72 999.3 0.91Z" />
-                    <path id="Layer" class="shp0" d="M427.26 0.91L856.89 0.91C855 4.36 853.25 7.91 851.22 11.24C723.7 223.08 596.18 434.92 468.66 646.75C455.44 668.75 442.66 690.91 429.66 713C289.58 713 149.51 712.97 9.46 712.9C6.31 712.9 3.15 711.42 0 710.63C2.12 707.9 4.54 705.35 6.31 702.41C145.2 471.74 284.04 241.08 422.85 10.41C424.63 7.41 425.8 4.07 427.26 0.91Z" />
-                </svg>
-                <h2><span>Reasons to</span> Work Together</h2>
-            </div>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="<?php echo PJ_ASSETS_URI; ?>/img/handshake.png">
+                    <img src="<?php echo PJ_ASSETS_URI; ?>/img/together.png" class="img-fix">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 mt-md-0 mt-5">
+                    <div>
+                    <div class="sub-heading mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1429 713" width="90" height="45">
+                            <path id="Layer" class="shp0" d="M999.3 0.91C1139.35 0.91 1279.4 0.94 1419.44 1C1422.61 1 1425.77 2.49 1428.93 3.28C1426.82 6.01 1424.4 8.56 1422.63 11.5C1283.74 242.17 1144.89 472.83 1006.09 703.5C1004.31 706.5 1003.09 709.8 1001.68 712.96L572.05 712.96C573.94 709.51 575.7 705.96 577.73 702.63C703.01 494.55 828.29 286.45 953.58 78.34C969 52.66 984.08 26.72 999.3 0.91Z" />
+                            <path id="Layer" class="shp0" d="M427.26 0.91L856.89 0.91C855 4.36 853.25 7.91 851.22 11.24C723.7 223.08 596.18 434.92 468.66 646.75C455.44 668.75 442.66 690.91 429.66 713C289.58 713 149.51 712.97 9.46 712.9C6.31 712.9 3.15 711.42 0 710.63C2.12 707.9 4.54 705.35 6.31 702.41C145.2 471.74 284.04 241.08 422.85 10.41C424.63 7.41 425.8 4.07 427.26 0.91Z" />
+                        </svg>
+                        <h2><span>Reasons to</span> Work Together</h2>
+                    </div>
                     <div class="content">
                         <p>We don’t just take your order and serve you a web design or mobile app. MWC’s website designers, website developers and mobile app developers take the time to get to know you and your market to create an all-encompassing digital marketing presence. This is how we have become one of the Best Website Design Companies in the Myanmar. Our Digital Marketing Agency is focused on delivering results for our clients. Whatever marketing goals you have – Brand Exposure, Lead Generation, Website Traffic – our team can help you reach your target audience and succeed. MWC’s Digital Marketing Team specializes in Search Engine Optimization, Social Media, Pay-per-click, Influencer Marketing, and more!</p>
                     </div>
+                    </div>
                 </div>
             </div>
-            <div class="row step-wrap items-block mt-lg-4 mt-5">
+            <div class="row step-wrap items-block mt-5">
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">1</div>
-                    <div class="content">အတွေ့အကြုံရှိသော ဝန်ထမ်းများစွာမှ ဝန်ဆောင်မှုပေးခြင်း</div>
+                    <div class="content"><h5 class="text-reset">အတွေ့အကြုံရှိသော ဝန်ထမ်းများစွာမှ ဝန်ဆောင်မှုပေးခြင်း</h5></div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">2</div>
-                    <div class="content">ဆန်းသစ်သော အိုင်ဒီယာများစွာ ဖန်တီးပေးခြင်း</div>
+                    <div class="content"><h5 class="text-reset">ဆန်းသစ်သော အိုင်ဒီယာများစွာ ဖန်တီးပေးခြင်း</h5></div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">3</div>
-                    <div class="content">အရည်အသွေးပြည့်ဝသော ရလဒ်ကောင်းများစွာ ရရှိစေခြင်း</div>
+                    <div class="content"><h5 class="text-reset">အရည်အသွေးပြည့်ဝသော ရလဒ်ကောင်းများစွာ ရရှိစေခြင်း</h5></div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">4</div>
-                    <div class="content">သင့်တင့်မျှတသော စျေးနှုန်းများဖြင့် ပြုလုပ်ပေးခြင်း</div>
+                    <div class="content"><h5 class="text-reset">သင့်တင့်မျှတသော စျေးနှုန်းများဖြင့် ပြုလုပ်ပေးခြင်း</h5></div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">5</div>
-                    <div class="content">Customer စိတ်တိုင်းကျ ဆောင်ရွက်ပေးခြင်း</div>
+                    <div class="content"><h5 class="text-reset">Customer စိတ်တိုင်းကျ ဆောင်ရွက်ပေးခြင်း</h5></div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="bg-primary text-white step mr-3">6</div>
-                    <div class="content">သေသပ် ကျန တိကျ မြန်ဆန်မှု ရှိခြင်း</div>
+                    <div class="content"><h5 class="text-reset">သေသပ် ကျန တိကျ မြန်ဆန်မှု ရှိခြင်း</h5></div>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <div class="mwc-overlay"></div>
-</main>
     
 <?php include("footer.php"); ?>

@@ -92,7 +92,7 @@ Main components
 
 .mwc-main-content {
   background: #fff;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   z-index: 2;
 }
 
@@ -170,6 +170,7 @@ Main components
 .mwc-search-trigger, .mwc-nav-trigger {
   position: relative;
   display: block;
+  font-size: 0px;
   width: 44px;
   height: 44px;
   overflow: hidden;
@@ -452,7 +453,7 @@ Main components
 }
 
 .mwc-nav-item h3{
-  line-height: inherit;
+  line-height: inherit!important;
 }
 
 
@@ -479,6 +480,8 @@ Main components
 }
 .mwc-primary-nav .mwc-nav-icons .mwc-nav-item {
   padding-left: 75px;
+  /* display: flex;
+  align-items: center; */
 }
 .mwc-primary-nav .mwc-nav-icons .mwc-nav-item p {
   /* color: #2e3233;
@@ -501,18 +504,18 @@ Main components
   background-size: 40px 40px;
 }
 .mwc-primary-nav .mwc-nav-icons .mwc-nav-item.item-1::before {
-  background-image: url("../img/line-icon-1.svg");
+  background-image: url("../img/webdesign-icon.png");
 }
 .mwc-primary-nav .mwc-nav-icons .mwc-nav-item.item-2::before {
-  background-image: url("../img/line-icon-2.svg");
+  background-image: url("../img/graphic-icon.png");
 }
 .mwc-primary-nav .mwc-nav-icons .mwc-nav-item.item-3::before {
-  background-image: url("../img/line-icon-3.svg");
+  background-image: url("../img/digital-icon.png");
 }
 .mwc-primary-nav .mwc-nav-icons .mwc-nav-item.item-4::before {
-  background-image: url("../img/line-icon-4.svg");
+  background-image: url("../img/app-icon.png");
 }
-.mwc-primary-nav .mwc-nav-icons .mwc-nav-item.item-5::before {
+/* .mwc-primary-nav .mwc-nav-icons .mwc-nav-item.item-5::before {
   background-image: url("../img/line-icon-5.svg");
 }
 .mwc-primary-nav .mwc-nav-icons .mwc-nav-item.item-6::before {
@@ -523,8 +526,13 @@ Main components
 }
 .mwc-primary-nav .mwc-nav-icons .mwc-nav-item.item-8::before {
   background-image: url("../img/line-icon-8.svg");
-}
+} */
 @media only screen and (max-width: 1169px) {
+
+  .mwc-primary-nav .mwc-nav-icons .mwc-nav-item h3{
+    color: white;
+  }
+
   .mwc-primary-nav {
     /* by default .mwc-primary-nav is hidden - trick for iOS devices where you can see the navigation if you pull down */
     visibility: hidden;

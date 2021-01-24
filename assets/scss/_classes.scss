@@ -10,6 +10,10 @@
     font-size: $h5-font-size;
 }
 
+.i-lg{
+    font-size: 3rem;
+}
+
 .f-family-heading{
     font-size: $heading-font;
 }
@@ -132,3 +136,17 @@
  .btn{
      padding: 12px 35px;
  }
+
+ .items-margin-bottom{
+     margin-bottom: -30px;
+     &>*{
+         margin-bottom: 30px;
+     }
+ }
+
+.img-fix {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

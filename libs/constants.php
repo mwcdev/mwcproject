@@ -2,7 +2,8 @@
 
     //define constants
     define('HTTP_SERVER', 'http://localhost:8080');
-    define('SITE_NAME', 'Myanmar Web Creator');
+    // define('SITE_NAME', 'Myanmar Web Creator');
+    // define('SITE_DESC', 'With skillful web designer, web developer and logo designer, we ensure you to get the best web design, web development, hosting and SEO services in Myanmar.');
     define('SITE_DIR', '/mwc-project/mwcproject');
     define('DB_DRIVER', 'mysql');
     define('DB_HOST', 'localhost');

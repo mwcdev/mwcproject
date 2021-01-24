@@ -1,12 +1,13 @@
 <!DOCTYPE HTML>
 <html lang="mm">
     <head>
-        <title><?php echo stripslashes('Home'); ?> - <?php echo SITE_NAME; ?></title>
+        <title>Myanmar Web Creator - <?php echo (!empty($pageData->title)) ? $pageData->title : ""; ?></title>
+        <title>Web Design, Website Development, Graphic Design, SEO, Digital Marketing in Myanmar- Myanmar Web Creator</title>
         <link rel="icon" href="http://thesoftwareguy.in/favicon.ico" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="description" content="<?php echo stripslashes('Data'); ?>" />
-        <meta name="keywords" content="<?php echo stripslashes('Data'); ?>" />
+        <meta name="description" content="Myanmar Web Creator provide website development, logo, graphic desgin and digital marketing services in yangon with affordable price. For more information consult with us for free." />
+        <meta name="keywords" content="Web Service in Yangon, W" />
         <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
         
         <!-- Swiper -->
@@ -23,10 +24,10 @@
         <link href='<?php echo PJ_ASSETS_URI; ?>/css/style.css' rel='stylesheet' type='text/css'>
         <link href='<?php echo PJ_ASSETS_URI; ?>/css/mega-site-navigation-master.css' rel='stylesheet' type='text/css'>
         <link href='<?php echo PJ_ASSETS_URI; ?>/font/icofont.min.css' rel='stylesheet' type='text/css'>
-
-        <link href='<?php echo PJ_ASSETS_URI; ?>/css/default.css' rel='stylesheet' type='text/css'>
-        <link href='<?php echo PJ_ASSETS_URI; ?>/css/default.date.css' rel='stylesheet' type='text/css'>
-        <link href='<?php echo PJ_ASSETS_URI; ?>/css/default.time.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link href='<?php echo PJ_ASSETS_URI; ?>/css/classic.css' rel='stylesheet' type='text/css'>
+        <link href='<?php echo PJ_ASSETS_URI; ?>/css/classic.date.css' rel='stylesheet' type='text/css'>
+        <link href='<?php echo PJ_ASSETS_URI; ?>/css/classic.time.css' rel='stylesheet' type='text/css'>
 
     </head>
     <body>
@@ -44,48 +45,47 @@
                                 <li class="go-back"><a href="#0">Menu</a></li>
                                 <!-- <li class="see-all"><a href="#">Browse Services</a></li> -->
                                 <li>
-                                    <a class="mwc-nav-item item-1" href="#">
-                                        <h3 class="f-base">Branding</h3>
-                                        <p class="f-small">Logo ဝန်ဆောင်မှု</p>
+                                    <a class="mwc-nav-item item-1" href="branding.php">
+                                        <h3 class="f-base mb-0">Branding</h3>
+                                        <p class="f-small">Logo နှင့် Graphic design ဝန်ဆောင်မှု</p>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a class="mwc-nav-item item-2" href="#">
-                                        <h3 class="f-base">Web Design</h3>
+                                    <a class="mwc-nav-item item-2" href="webdesign.php">
+                                        <h3 class="f-base mb-0">Web Design</h3>
                                         <p class="f-small">Web Design & Development ဝန်ဆောင်မှု</p>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a class="mwc-nav-item item-3" href="#">
-                                        <h3 class="f-base">Digital Marketing</h3>
-                                        <p class="f-small">This is the item description</p>
+                                    <a class="mwc-nav-item item-3" href="digital.php">
+                                        <h3 class="f-base mb-0">Digital Marketing</h3>
+                                        <p class="f-small">အွန်လိုင်းစျေးကွက်ကြော်ငြာ ဝန်ဆောင်မှု</p>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a class="mwc-nav-item item-4" href="#">
-                                        <h3  class="f-base">Application Development</h3>
-                                        <p class="f-small">This is the item description</p>
+                                    <a class="mwc-nav-item item-4" href="app.php">
+                                        <h3  class="f-base mb-0">Application Development</h3>
+                                        <p class="f-small">App ဖန်တီးခြင်း ဝန်ဆောင်မှု</p>
                                     </a>
                                 </li>
 
                             </ul>
                         </li>
 
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">About</a></li>
+                        <!-- <li><a href="projects.php">Projects</a></li> -->
+                        <li><a href="about.php">About</a></li>
                     </ul> <!-- primary-nav -->
                 </nav> <!-- mwc-nav -->
-                <a class="mwc-logo d-inline-block py-2" href="#0">
-                    <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo.png" alt="Logo">
+                <a class="mwc-logo d-inline-block py-2" href="/">
+                    <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo.png" alt="Myanmar Web Creator Logo" title="Myanmar Web Creator Logo">
                 </a>
                 <ul class="mwc-header-buttons d-flex align-items-center ml-auto mb-0">
                     <li class="d-md-inline-block d-none">
                         <i class="icofont-headphone-alt pr-2"></i>
-                        <a href="http://" class="text-default">09 26346 2227</a>
+                        <a href="tel:+959263462227" target="_blank" class="text-default">09-2634-62227</a>
                     </li>
                     <li class="d-md-inline-block d-none">
                         <a role="button" id="open-modal-booking" class="btn btn-primary ml-3" style="text-transform: capitalize;">အခမဲ့ဆွေးနွေးပါ</a>
@@ -103,3 +103,21 @@
             <input type="search" placeholder="Search...">
         </form>
     </div>
+
+
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <span>M</span>
+            <span>W</span>
+            <span>C</span>
+            
+            <div class="covers">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+    </div>
+
+    <main class="mwc-main-content">

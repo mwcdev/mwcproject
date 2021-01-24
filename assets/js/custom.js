@@ -1,12 +1,28 @@
+  // Pre loader
+  $(window).on("load", function () {
+    $(".preloader").fadeOut(2000);
+    // $("body").css({"overflow-y":"hidden"});
+  });
+
+  // $("body").css({"overflow-y":"in"});
+
+
 // hero slider
 $('.hero-slider').slick({
   infinite: false,
 });
 
 $(window).on('load resize',()=>{
-  $(".hero-slider").css("padding-top", $("header").outerHeight());
+  $(".banner-section").css("padding-top", $("header").outerHeight());
 });
 
+// $("#mwc-primary-nav a").click(()=>{
+//   if($(".mwc-overlay").hasClass("is-visible")){
+//     $("body").addClass("active-overlay");
+//   }else{
+//     $("body").removeClass("active-overlay");
+//   }
+// });
 
 // Services slider
 // var serviceSwiper = new Swiper('.swiper-container', {
@@ -112,6 +128,46 @@ $('.client-logo').slick({
 });
 
 
+
+// client logo 
+// $('.related-client-logo').slick({
+//   infinite: true,
+//   dots: false,
+//   speed: 300,
+//   rows: 2,
+//   slidesToShow: 6,
+//   slidesToScroll: 6,
+//   autoplay: true,
+//   autoplaySpeed: 1500,
+//   responsive: [
+//     {
+//       breakpoint: 1024,
+//       settings: {
+//         slidesToShow: 3,
+//         slidesToScroll: 3,
+//         infinite: true,
+//         dots: true
+//       }
+//     },
+//     {
+//       breakpoint: 600,
+//       settings: {
+//         slidesToShow: 2,
+//         slidesToScroll: 2
+//       }
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         slidesToShow: 2,
+//         slidesToScroll: 2
+//       }
+//     }
+//   ]
+// });
+
+
+
 // client logo 
 $('.projects').slick({
   infinite: true,
@@ -157,8 +213,16 @@ $(document).ready(function() {
     openSelector: '#open-modal-booking',
     closeSelector: '.close-modal-booking, #send-booking, .close-modal'
   });
-  $('.datepicker').pickadate();
-  $('.timepicker').pickatime();
+  $('.datepicker').pickadate({
+    min:0,
+    disable: [
+      1, 7
+    ]
+  });
+  $('.timepicker').pickatime({
+    min: [9,00],
+    max: [15,00],
+  });
 });
 
 

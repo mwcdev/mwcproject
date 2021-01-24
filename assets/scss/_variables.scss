@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 // Myanmar fonts
 @import url('https://fonts.googleapis.com/earlyaccess/myanmarsanspro.css');
@@ -12,7 +13,7 @@ $primary: #C51D1D;
 $secondary: #2B2D42;
 $success: #20c997;
 $warning: #fd7e14;
-$accent: #FBF5D0;
+$accent: #f3e0c7;
 $lightblue: #F8F9FD;
 $lightbluedark: #e2e6f5;
 $gray: #CCCCCC;
@@ -20,7 +21,7 @@ $lightgray: #EFF2F4;
 $default: $secondary;
 // $heading-font: 'Titillium Web', sans-serif;
 $heading-font: 'Play', 'Myanmar Sans Pro', sans-serif;
-$body-font: 'Source Sans Pro', 'Noto Sans Myanmar',  sans-serif;
+$body-font: 'Noto Sans', 'Noto Sans Myanmar',  sans-serif;
 $font-weight-regular: 400;
 $font-weight-semi-bold: 600;
 $font-weight-bold: 700;
