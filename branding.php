@@ -62,17 +62,7 @@
                     <div class="row items-margin-bottom related-client-logo">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                                     <div class="bg-white border p-4">
-                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/nature-love-myanmar.png">
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                                    <div class="bg-white border p-4">
-                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/mpi.png">
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                                    <div class="bg-white border p-4">
-                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/dscl.png">
+                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/ktg-family.png">
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
@@ -82,17 +72,27 @@
                                 </div>
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                                     <div class="bg-white border p-4">
-                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/ktg.png">
+                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/myanmartechnology.png">
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                                     <div class="bg-white border p-4">
-                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/mei.png">
+                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/sister.png">
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                                     <div class="bg-white border p-4">
-                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/sarpay.png">
+                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/nature-love-myanmar.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                    <div class="bg-white border p-4">
+                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/construction.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                    <div class="bg-white border p-4">
+                                        <img src="<?php echo PJ_ASSETS_URI; ?>/img/logo/mpi.png">
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">

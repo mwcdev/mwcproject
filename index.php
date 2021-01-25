@@ -128,6 +128,18 @@
                 </div>
             </div>
 
+            <div class="our-work our-work-left">
+                <div class="our-work-caption">
+                    <h1 class="mb-3">အက်ပလီကေးရှင်း ဝန်ဆောင်မှု</h1>
+                    <p class="mb-0 d-xl-block d-none">
+                    အရင်းအနှီးအနည်းငယ်မှ အကျိုးအမြတ် အများအပြားရှာဖွေနိုင်ရန် ဆောင်ရွက်ပေးနေမှာ Application ဝန်ဆောင်မှုပါ...
+                    </p>
+                </div>
+                <div class="our-work-thumb" style="background:linear-gradient(60deg, #FFC200, #FF7218);">
+                    <div class="pic" style="background:url(<?php echo PJ_ASSETS_URI; ?>/img/digital-2.png);"></div>
+                </div>
+            </div>
+
         </div>
     </section>
 
